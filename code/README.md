@@ -1,5 +1,5 @@
 # Paper对应代码汇总
-### [代码登记链接](https://github.com/MsterDC/CVM-DL_Base/edit/main/code/collection_code.md)
+### [代码登记链接](https://github.com/MsterDC/CVM-DL_Base/blob/main/code/collection_code.md)
 
 ## :book: 登记格式
 [对应题目编号] 文章标题, [超链接]
