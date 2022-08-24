@@ -77,4 +77,4 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 3. 2019CVPR - A Style-Based Generator Architecture for Generative Adversarial Networks, Tero Karras, Samuli Laine, Timo Aila.[StyleGAN](https://arxiv.org/pdf/1812.04948.pdf)
 4. 2018CVPR - Stargan: Unified generative adversarial networks for multi-domain image-to-image translation, Choi, Yunjey and Choi, Minje and Kim, Munyoung and Ha, Jung-Woo and Kim, Sunghun and Choo, Jaegul. [StarGAN](https://arxiv.org/pdf/1711.09020.pdf)
 
-
+[Q77] 2016CVPR - Learning deep features for discriminative localization, Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Oliva, Aude and Torralba, Antonio. [CAM](https://arxiv.org/pdf/1512.04150.pdf)
