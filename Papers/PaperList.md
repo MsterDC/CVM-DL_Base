@@ -9,6 +9,8 @@
 ## 🔥 Paper List
 (请按照问题顺序登记⬇️: From #1 to #83)
 
+[Q5] 2016ECCV - A Discriminative Feature Learning Approach for Deep Face Recognition, Ronneberger, Yandong Wen, Kaipeng Zhang, Zhifeng Li, and Yu Qiao. [Center Loss](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46478-7_31.pdf)
+
 [Q17] 
 1. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, Sergey Ioffe, Christian Szegedy. [BN](https://arxiv.org/pdf/1502.03167v2.pdf)  <br>
 2. Layer Normalization, Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E. [LN](https://arxiv.org/pdf/1607.06450.pdf)  <br>
