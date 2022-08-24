@@ -9,6 +9,10 @@
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 
+
+
 [Q30] 2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
 
 [Q35] 2017ICCV - Deformable Convolutional Networks, Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, Yichen Wei. [DCN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)
+
+[Q38] 2016CVPR - Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
