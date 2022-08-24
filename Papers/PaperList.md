@@ -29,6 +29,7 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 1. 2012NIPS - ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E. [AlexNet](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 2. 2015ICLR - Very deep convolutional networks for large-scale image recognition, Simonyan, Karen and Zisserman, Andrew. [VGGNet](https://arxiv.org/pdf/1409.1556.pdf)
 3. 2015CVPR - Going deeper with convolutions, Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew. [GoogleNet](https://arxiv.org/pdf/1409.4842.pdf)
+4. 2016CVPR - Deep residual learning for image recognition, He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
 
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
