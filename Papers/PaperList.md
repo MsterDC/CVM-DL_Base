@@ -30,6 +30,7 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 2. 2015ICLR - Very deep convolutional networks for large-scale image recognition, Simonyan, Karen and Zisserman, Andrew. [VGGNet](https://arxiv.org/pdf/1409.1556.pdf)
 3. 2015CVPR - Going deeper with convolutions, Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew. [GoogleNet](https://arxiv.org/pdf/1409.4842.pdf)
 4. 2016CVPR - Deep residual learning for image recognition, He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+5. 2017CVPR - Densely connected convolutional networks, Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q. [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
 
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
