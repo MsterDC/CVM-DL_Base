@@ -25,6 +25,10 @@
 [Q19] 2014JMLR - Dropout: A Simple Way to Prevent Neural Networks from
 Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov. [Dropout](https://cs.nju.edu.cn/zhangl/dropout.pdf)
 
+[Q23] 
+1. 2012NIPS - ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E. [AlexNet](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+2. 
+
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
 [Q30] 2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
