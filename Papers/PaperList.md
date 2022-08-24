@@ -10,6 +10,7 @@
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 
 [Q17] Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, Sergey Ioffe, Christian Szegedy. [BN](https://arxiv.org/pdf/1502.03167v2.pdf)
+
 Layer Normalization, Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E. [LN](https://arxiv.org/pdf/1607.06450.pdf)
 Group Normalization, Yuxin Wu, Kaiming He. [GN](https://arxiv.org/pdf/1803.08494.pdf)
 Instance Normalization: The Missing Ingredient for Fast Stylization, Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky. [IN](Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky)
