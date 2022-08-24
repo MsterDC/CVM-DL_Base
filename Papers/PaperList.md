@@ -8,3 +8,5 @@
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
+
+[Q30] 2018CVPR Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [Squeeze-and-Excitation Networks] (https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
