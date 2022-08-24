@@ -40,8 +40,11 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 [Q25] 2015CVPR - Fully Convolutional Networks for Semantic Segmentation, Jonathan Long, Evan Shelhamer, Trevor Darrell. [FCN](https://arxiv.org/pdf/1411.4038.pdf)
 
 [Q26]
-1. 2017CVPR - Xception: Deep learning with depthwise separable convolutions, François Chollet. [Xception](https://arxiv.org/pdf/1610.02357.pdf)
-2. 2017CVPR - Mobilenets: Efficient convolutional neural networks for mobile vision applications, Howard, Andrew G and Zhu, Menglong and Chen, Bo and Kalenichenko, Dmitry and Wang, Weijun and Weyand, Tobias and Andreetto, Marco and Adam, Hartwig. [MobileNet](https://arxiv.org/pdf/1704.04861.pdf)
+1. 2015CVPR - Going Deeper with Convolutions, Szegedy C, Liu W, Jia Y, et al. [Inception(v1)](https://arxiv.org/pdf/1409.4842.pdf)
+2. 2015ICML - Batch normalization: Accelerating deep network training by reducing internal covariate shift, Ioffe S, Szegedy C. [Inception(v2)](http://proceedings.mlr.press/v37/ioffe15.pdf)
+3. 2016CVPR - Rethinking the inception architecture for computer vision, Szegedy C, Vanhoucke V, Ioffe S, et al. [Inception(v3)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf)
+4. 2017CVPR - Xception: Deep learning with depthwise separable convolutions, François Chollet. [Xception](https://arxiv.org/pdf/1610.02357.pdf)
+5. 2017CVPR - Mobilenets: Efficient convolutional neural networks for mobile vision applications, Howard, Andrew G and Zhu, Menglong and Chen, Bo and Kalenichenko, Dmitry and Wang, Weijun and Weyand, Tobias and Andreetto, Marco and Adam, Hartwig. [MobileNet](https://arxiv.org/pdf/1704.04861.pdf)
 
 [Q27] 2019ICML - Efficientnet: Rethinking model scaling for convolutional neural networks, Tan, Mingxing and Le, Quoc. [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
 
