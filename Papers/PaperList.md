@@ -33,6 +33,8 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 4. 2016CVPR - Deep residual learning for image recognition, He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian. [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
 5. 2017CVPR - Densely connected convolutional networks, Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q. [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
 
+[Q24] 2014ICLR - Network In Network, Lin, Min and Chen, Qiang and Yan, Shuicheng. [NiN](https://arxiv.org/pdf/1312.4400.pdf)
+
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
 [Q30] 2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
