@@ -22,6 +22,9 @@
 3. Group Normalization, Yuxin Wu, Kaiming He. [GN](https://arxiv.org/pdf/1803.08494.pdf)  <br>
 4. Instance Normalization: The Missing Ingredient for Fast Stylization, Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky. [IN](https://arxiv.org/pdf/1607.08022.pdf)
 
+[Q19] 2014JMLR - Dropout: A Simple Way to Prevent Neural Networks from
+Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov. [Dropout](https://cs.nju.edu.cn/zhangl/dropout.pdf)
+
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
 [Q30] 2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
