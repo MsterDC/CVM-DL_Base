@@ -41,6 +41,8 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 1. 2017CVPR - Xception: Deep learning with depthwise separable convolutions, François Chollet. [Xception](https://arxiv.org/pdf/1610.02357.pdf)
 2. 2017CVPR - Mobilenets: Efficient convolutional neural networks for mobile vision applications, Howard, Andrew G and Zhu, Menglong and Chen, Bo and Kalenichenko, Dmitry and Wang, Weijun and Weyand, Tobias and Andreetto, Marco and Adam, Hartwig. [MobileNet](https://arxiv.org/pdf/1704.04861.pdf)
 
+[Q27] 2019ICML - Efficientnet: Rethinking model scaling for convolutional neural networks, Tan, Mingxing and Le, Quoc. [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
+
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
 [Q30] 2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
