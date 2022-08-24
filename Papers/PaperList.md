@@ -55,6 +55,10 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 
 [Q32] 2016 - A guide to convolution arithmetic for deep learning, Dumoulin, Vincent and Visin, Francesco. [Transposed Convolution](https://arxiv.org/pdf/1603.07285.pdf)
 
+[Q33]
+1. 2017NIPS - Attention is all you need, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. [Attention](https://arxiv.org/pdf/1706.03762.pdf)
+2. 
+
 [Q35] 2017ICCV - Deformable Convolutional Networks, Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, Yichen Wei. [DCN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)
 
 [Q38] 2016CVPR - Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
