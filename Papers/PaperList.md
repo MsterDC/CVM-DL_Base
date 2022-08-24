@@ -35,6 +35,8 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 
 [Q24] 2014ICLR - Network In Network, Lin, Min and Chen, Qiang and Yan, Shuicheng. [NiN](https://arxiv.org/pdf/1312.4400.pdf)
 
+[Q25] 2015CVPR - Fully Convolutional Networks for Semantic Segmentation, Jonathan Long, Evan Shelhamer, Trevor Darrell. [FCN](https://arxiv.org/pdf/1411.4038.pdf)
+
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
 [Q30] 2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
