@@ -70,3 +70,7 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 2. 2015ICCV - Fast R-CNN, Ross Girshick.[Fast-RCNN](https://arxiv.org/pdf/1504.08083.pdf)
 3. 2015NIPS - Faster r-cnn: Towards real-time object detection with region proposal networks, Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian[Faster-RCNN](https://arxiv.org/pdf/1506.01497.pdf)
 4. 2016CVPR - You only look once: Unified, real-time object detection, Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali. [YOLO](https://arxiv.org/pdf/1506.02640.pdf)
+
+[Q71]
+1. 2017ICML - Wasserstein generative adversarial networks, Martin Arjovsky, Soumith Chintala, Léon Bottou. [WGAN](https://arxiv.org/pdf/1701.07875.pdf)
+2. 
