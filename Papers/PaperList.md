@@ -75,4 +75,6 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 1. 2017ICML - Wasserstein generative adversarial networks, Martin Arjovsky, Soumith Chintala, Léon Bottou. [WGAN](https://arxiv.org/pdf/1701.07875.pdf)
 2. 2017ICCV - Unpaired image-to-image translation using cycle-consistent adversarial networks, Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A. [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf)
 3. 2019CVPR - A Style-Based Generator Architecture for Generative Adversarial Networks, Tero Karras, Samuli Laine, Timo Aila.[StyleGAN](https://arxiv.org/pdf/1812.04948.pdf)
-4. 
+4. 2018CVPR - Stargan: Unified generative adversarial networks for multi-domain image-to-image translation, Choi, Yunjey and Choi, Minje and Kim, Munyoung and Ha, Jung-Woo and Kim, Sunghun and Choo, Jaegul. [StarGAN](https://arxiv.org/pdf/1711.09020.pdf)
+
+
