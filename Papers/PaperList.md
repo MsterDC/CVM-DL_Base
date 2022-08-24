@@ -73,4 +73,5 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 
 [Q71]
 1. 2017ICML - Wasserstein generative adversarial networks, Martin Arjovsky, Soumith Chintala, Léon Bottou. [WGAN](https://arxiv.org/pdf/1701.07875.pdf)
-2. 
+2. 2017ICCV - Unpaired image-to-image translation using cycle-consistent adversarial networks, Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A. [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf)
+3. 
