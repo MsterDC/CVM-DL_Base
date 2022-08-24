@@ -68,4 +68,4 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 [Q50]
 1. 2014CVPR - Rich feature hierarchies for accurate object detection and semantic segmentation, Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra. [RCNN](https://arxiv.org/pdf/1311.2524.pdf)
 2. 2015ICCV - Fast R-CNN, Ross Girshick.[Fast-RCNN](https://arxiv.org/pdf/1504.08083.pdf)
-3. 
+3. 2015NIPS - Faster r-cnn: Towards real-time object detection with region proposal networks, Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian[Faster-RCNN](https://arxiv.org/pdf/1506.01497.pdf)
