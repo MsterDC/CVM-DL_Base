@@ -9,7 +9,10 @@
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 
-[Q5] 2016ECCV - A Discriminative Feature Learning Approach for Deep Face Recognition, Ronneberger, Yandong Wen, Kaipeng Zhang, Zhifeng Li, and Yu Qiao. [Center Loss](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46478-7_31.pdf)
+[Q17] Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, Sergey Ioffe, Christian Szegedy. [BN](https://arxiv.org/pdf/1502.03167v2.pdf)
+Layer Normalization, Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E. [LN](https://arxiv.org/pdf/1607.06450.pdf)
+Group Normalization, Yuxin Wu, Kaiming He. [GN](https://arxiv.org/pdf/1803.08494.pdf)
+Instance Normalization: The Missing Ingredient for Fast Stylization, Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky. [IN](Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky)
 
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
