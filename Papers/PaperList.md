@@ -68,6 +68,12 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 
 [Q35] 2017ICCV - Deformable Convolutional Networks, Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, Yichen Wei. [DCN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)
 
+[Q36]
+1. 2017ICCV - Learning efficient convolutional networks through network slimming, Liu Z, Li J, Shen Z, et al. [Ref-1](https://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_Learning_Efficient_Convolutional_ICCV_2017_paper.pdf)
+2. 2018Arxiv - Rethinking the smaller-norm-less-informative assumption in channel pruning of convolution layers, Ye J, Lu X, Lin Z, et al. [Ref-2](https://arxiv.org/pdf/1802.00124.pdf)
+3. 2018ECCV - Data-driven sparse structure selection for deep neural networks, Huang Z, Wang N. [Ref-3](https://openaccess.thecvf.com/content_ECCV_2018/papers/Zehao_Huang_Data-Driven_Sparse_Structure_ECCV_2018_paper.pdf)
+4. 2017ICCV - Channel pruning for accelerating very deep neural networks, He Y, Zhang X, Sun J. [Ref-4](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Channel_Pruning_for_ICCV_2017_paper.pdf)
+
 [Q38] 2016CVPR - Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 [Q50]
