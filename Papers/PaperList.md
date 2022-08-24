@@ -53,6 +53,8 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 1. 2017CVPR - Aggregated Residual Transformations for Deep Neural Networks, Saining Xie, Ross Girshick, Piotr Dollár, Zhuowen Tu, Kaiming He. [ResNext](https://arxiv.org/pdf/1611.05431.pdf)
 2. 2018CVPR - Shufflenet: An extremely efficient convolutional neural network for mobile devices, Zhang, Xiangyu and Zhou, Xinyu and Lin, Mengxiao and Sun, Jian. [ShuffleNet](https://arxiv.org/pdf/1707.01083.pdf)
 
+[Q32] 2016 - A guide to convolution arithmetic for deep learning, Dumoulin, Vincent and Visin, Francesco. [Transposed Convolution](https://arxiv.org/pdf/1603.07285.pdf)
+
 [Q35] 2017ICCV - Deformable Convolutional Networks, Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, Yichen Wei. [DCN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)
 
 [Q38] 2016CVPR - Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
