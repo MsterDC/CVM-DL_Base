@@ -9,6 +9,7 @@
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 ### [xxx] xxxyyy - xxx, xxx. [xxx](yyy)
 
+[Q5] 2016ECCV - Center Loss: A Discriminative Feature Learning Approach for Deep Face Recognition, Ronneberger, Yandong Wen, Kaipeng Zhang, Zhifeng Li, and Yu Qiao. [Center Loss](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46478-7_31.pdf)
 
 [Q28] 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
