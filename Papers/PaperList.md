@@ -9,6 +9,9 @@
 ## 🔥 Paper List
 (请按照问题顺序登记⬇️: From #1 to #83)
 
+[Q4]
+1. 2016ICML - Large-Margin Softmax Loss for Convolutional Neural Networks, Weiyang Liu, Yandong Wen, Zhiding Yu, Meng Yang. [L-Softmax](https://arxiv.org/pdf/1612.02295.pdf)
+
 [Q5] 2016ECCV - A Discriminative Feature Learning Approach for Deep Face Recognition, Ronneberger, Yandong Wen, Kaipeng Zhang, Zhifeng Li, and Yu Qiao. [Center Loss](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46478-7_31.pdf)
 
 [Q17] 
