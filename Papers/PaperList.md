@@ -11,6 +11,8 @@
 
 [Q4]
 1. 2016ICML - Large-Margin Softmax Loss for Convolutional Neural Networks, Weiyang Liu, Yandong Wen, Zhiding Yu, Meng Yang. [L-Softmax](https://arxiv.org/pdf/1612.02295.pdf)
+2. 2017CVPR - SphereFace: Deep Hypersphere Embedding for Face Recognition, Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, Le Song. [A-Softmax](https://arxiv.org/pdf/1704.08063.pdf)
+3. 2018ICLRw - Additive Margin Softmax for Face Verification, Feng Wang, Weiyang Liu, Haijun Liu, Jian Cheng. [Am-Softmax](https://arxiv.org/pdf/1801.05599.pdf)
 
 [Q5] 2016ECCV - A Discriminative Feature Learning Approach for Deep Face Recognition, Ronneberger, Yandong Wen, Kaipeng Zhang, Zhifeng Li, and Yu Qiao. [Center Loss](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46478-7_31.pdf)
 
