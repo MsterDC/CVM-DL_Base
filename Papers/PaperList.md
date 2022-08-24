@@ -78,14 +78,14 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 
 [Q50]
 1. 2014CVPR - Rich feature hierarchies for accurate object detection and semantic segmentation, Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra. [RCNN](https://arxiv.org/pdf/1311.2524.pdf)
-2. 2015ICCV - Fast R-CNN, Ross Girshick.[Fast-RCNN](https://arxiv.org/pdf/1504.08083.pdf)
-3. 2015NIPS - Faster r-cnn: Towards real-time object detection with region proposal networks, Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian[Faster-RCNN](https://arxiv.org/pdf/1506.01497.pdf)
+2. 2015ICCV - Fast R-CNN, Ross Girshick. [Fast-RCNN](https://arxiv.org/pdf/1504.08083.pdf)
+3. 2015NIPS - Faster r-cnn: Towards real-time object detection with region proposal networks, Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian. [Faster-RCNN](https://arxiv.org/pdf/1506.01497.pdf)
 4. 2016CVPR - You only look once: Unified, real-time object detection, Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali. [YOLO](https://arxiv.org/pdf/1506.02640.pdf)
 
 [Q71]
 1. 2017ICML - Wasserstein generative adversarial networks, Martin Arjovsky, Soumith Chintala, Léon Bottou. [WGAN](https://arxiv.org/pdf/1701.07875.pdf)
 2. 2017ICCV - Unpaired image-to-image translation using cycle-consistent adversarial networks, Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A. [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf)
-3. 2019CVPR - A Style-Based Generator Architecture for Generative Adversarial Networks, Tero Karras, Samuli Laine, Timo Aila.[StyleGAN](https://arxiv.org/pdf/1812.04948.pdf)
+3. 2019CVPR - A Style-Based Generator Architecture for Generative Adversarial Networks, Tero Karras, Samuli Laine, Timo Aila. [StyleGAN](https://arxiv.org/pdf/1812.04948.pdf)
 4. 2018CVPR - Stargan: Unified generative adversarial networks for multi-domain image-to-image translation, Choi, Yunjey and Choi, Minje and Kim, Munyoung and Ha, Jung-Woo and Kim, Sunghun and Choo, Jaegul. [StarGAN](https://arxiv.org/pdf/1711.09020.pdf)
 
 [Q77] 2016CVPR - Learning deep features for discriminative localization, Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Oliva, Aude and Torralba, Antonio. [CAM](https://arxiv.org/pdf/1512.04150.pdf)
