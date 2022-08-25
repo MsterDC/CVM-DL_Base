@@ -21,5 +21,6 @@ Based on the [basic topics](https://github.com/MsterDC/CVM-DL_Base/blob/main/top
 ![image](ans_process.jpg)
 
 ## 👍 Acknowledgements
-This project was established with the support of Dr. Fan Tang.<br>
-Thanks to Hairui Ren(Hrren), Huapeng Wei(myweihp), Yongjie Chen(CharryJay), Xiaoyu Kong(kongxiuxiu), Kexin Wu(wukexin-code), Shuwei Dong(dsw-jlu-rgzn), Rui Wang(wruii), Zijun Zhou(ZhouwqZJ) for their contribution.<br>
+* This project was established with the support of ***Dr.FanTang***.<br>
+* Thanks to *Hairui Ren(Hrren), Huapeng Wei(myweihp), Yongjie Chen(CharryJay), Xiaoyu Kong(kongxiuxiu), Kexin Wu(wukexin-code), Shuwei Dong(dsw-jlu-rgzn), Rui Wang(wruii), Zijun Zhou(ZhouwqZJ)* and *Yunbing Jia(22222222z)* for their contributions.<br>
+* We hope that this project will inspire and help others. If you want to participate in the project or have any suggestions, please contact us.
