@@ -9,6 +9,9 @@ Based on the [basic topics](https://github.com/MsterDC/CVM-DL_Base/blob/main/top
 ## :gear: Code
 * [Code Collection](https://github.com/MsterDC/CVM-DL_Base/tree/main/code)
 
+## Answer Process
+![image](ans_process.jpg)
+
 ## :fire: Work Space
 * [EverNote](xxx)
 * [Document](xxx)
