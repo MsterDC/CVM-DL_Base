@@ -99,8 +99,11 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 [Q50]
 1. 2014CVPR - Rich feature hierarchies for accurate object detection and semantic segmentation, Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra. [RCNN](https://arxiv.org/pdf/1311.2524.pdf)
 2. 2015ICCV - Fast R-CNN, Ross Girshick. [Fast-RCNN](https://arxiv.org/pdf/1504.08083.pdf)
-3. 2015NIPS - Faster r-cnn: Towards real-time object detection with region proposal networks, Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian. [Faster-RCNN](https://arxiv.org/pdf/1506.01497.pdf)
+3. 2015NIPS - Faster r-cnn: Towards real-time object detection with region proposal networks, Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian. [Faster-RCNN](https://arxiv.org/pdf/1506.01497.pd
 4. 2016CVPR - You only look once: Unified, real-time object detection, Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali. [YOLO](https://arxiv.org/pdf/1506.02640.pdf)
+
+[Q61]
+1. 2020ECCV - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, By Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng. (NeRF)[https://dl.acm.org/doi/pdf/10.1145/3503250]
 
 [Q71]
 1. 2017ICML - Wasserstein generative adversarial networks, Martin Arjovsky, Soumith Chintala, Léon Bottou. [WGAN](https://arxiv.org/pdf/1701.07875.pdf)
@@ -115,7 +118,7 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 1. 2022NIPS - Denoising diffusion probabilistic models, 
 
 [Q73]
-1. NICE: NON-LINEAR INDEPENDENT COMPONENTS ESTIMATION
+1. 2015ICLR - NICE: NON-LINEAR INDEPENDENT COMPONENTS ESTIMATION, Laurent Dinh David Krueger Yoshua Bengio. [FLOW](https://arxiv.org/pdf/1410.8516.pdf))
 
 [Q77] 
 1. 2016CVPR - Learning deep features for discriminative localization, Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Oliva, Aude and Torralba, Antonio. [CAM](https://arxiv.org/pdf/1512.04150.pdf)
