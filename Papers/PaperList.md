@@ -125,5 +125,5 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 1. 2016CVPR - Learning deep features for discriminative localization, Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Oliva, Aude and Torralba, Antonio. [CAM](https://arxiv.org/pdf/1512.04150.pdf)
 2. 2020ECCV Rethinking Class Activation Mapping for Weakly Supervised Object Localization, Wonho Bae, Junhyug Noh, Gunhee Kim.[CAM](https://link.springer.com/chapter/10.1007/978-3-030-58555-6_37)
 
-[Q83]2015DPCC MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems, Tianqi Chen, Mu Li, Yutian Li, Min Lin, Naiyan Wang, Minjie Wang, Tianjun Xiao, Bing Xu, Chiyuan Zhang, Zheng Zhang.[MXNet](https://arxiv.org/abs/1512.01274)
-Zhihu-URL: [炼丹介绍]（https://zhuanlan.zhihu.com/p/23781756）
+[Q83]2015DPCC MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems, Tianqi Chen, Mu Li, Yutian Li, Min Lin, Naiyan Wang, Minjie Wang, Tianjun Xiao, Bing Xu, Chiyuan Zhang, Zheng Zhang. [MxNet](https://arxiv.org/abs/1512.01274) /
+Zhihu-URL: [炼丹介绍](https://zhuanlan.zhihu.com/p/23781756)
