@@ -4,17 +4,16 @@ Based on the [basic topics](https://github.com/MsterDC/CVM-DL_Base/blob/main/top
 
 ## :book: Paper
 * [Paper List](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PaperList.md)
-* [Registration](https://github.com/MsterDC/CVM-DL_Base/blob/main/Papers)
+* [Download/Mark](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PDFs)
 
 ## :gear: Code
 * [Code Collection](https://github.com/MsterDC/CVM-DL_Base/tree/main/code)
 
+## :fire: Work Space
+* [Document](https://docs.qq.com/sheet/DQ1RHcU5YZ3daeHpX)
+
 ## Answer Process
 ![image](ans_process.jpg)
-
-## :fire: Work Space
-* [EverNote](xxx)
-* [Document](xxx)
 
 ## 👍 Acknowledgements
 This project was established with the support of Dr. Fan Tang.<br>
