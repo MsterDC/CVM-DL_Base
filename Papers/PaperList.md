@@ -8,6 +8,11 @@
 
 ## 🔥 Paper List
 (请按照问题顺序登记⬇️: From #1 to #83)
+[Q2]
+1. 2011JMLR - Deep sparse rectifier neural networks, Glorot, Xavier and Bordes, Antoine and Bengio, Yoshua. [ReLU]( http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf)
+2. 2013 - Rectifier nonlinearities improve neural network acoustic models, Andrew L. Maas, Awni Y. Hannun and Andrew Y. Ng.[Leaky ReLU](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.693.1422&rep=rep1&type=pdf)
+3. 2015 - Fast and accurate deep network learning by exponential linear units (elus), Djork-Arne Clevert, Thomas Unterthiner and Sepp Hochreiter.[ELU](https://arxiv.org/pdf/1511.07289.pdf%5cnhttp://arxiv.org/abs/1511.07289%5cnhttp://arxiv.org/abs/1511.07289.pdf)
+4. 2015ICCV - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification, Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun.[PReLU](https://openaccess.thecvf.com/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf)
 
 [Q4]
 1. 2016ICML - Large-Margin Softmax Loss for Convolutional Neural Networks, Weiyang Liu, Yandong Wen, Zhiding Yu, Meng Yang. [L-Softmax](https://arxiv.org/pdf/1612.02295.pdf)
