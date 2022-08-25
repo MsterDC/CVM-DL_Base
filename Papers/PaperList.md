@@ -29,6 +29,7 @@
 2. Layer Normalization, Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E. [LN](https://arxiv.org/pdf/1607.06450.pdf)  <br>
 3. Group Normalization, Yuxin Wu, Kaiming He. [GN](https://arxiv.org/pdf/1803.08494.pdf)  <br>
 4. Instance Normalization: The Missing Ingredient for Fast Stylization, Dmitry Ulyanov, Andrea Vedaldi, Victor Lempitsky. [IN](https://arxiv.org/pdf/1607.08022.pdf)
+5. 2017ICCV - Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization, Xun Huang and Serge Belongie.[AdaIN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Huang_Arbitrary_Style_Transfer_ICCV_2017_paper.pdf)
 
 [Q19] 2014JMLR - Dropout: A Simple Way to Prevent Neural Networks from
 Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov. [Dropout](https://cs.nju.edu.cn/zhangl/dropout.pdf)
