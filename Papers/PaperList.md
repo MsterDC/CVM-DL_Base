@@ -111,6 +111,12 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 6. 2020CVPR Analyzing and Improving the Image Quality of StyleGAN, Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila.
 [StyleGAN](https://openaccess.thecvf.com/content_CVPR_2020/html/Karras_Analyzing_and_Improving_the_Image_Quality_of_StyleGAN_CVPR_2020_paper.html)
 
+[Q72]
+1. 2022NIPS - Denoising diffusion probabilistic models, 
+
+[Q73]
+1. NICE: NON-LINEAR INDEPENDENT COMPONENTS ESTIMATION
+
 [Q77] 
 1. 2016CVPR - Learning deep features for discriminative localization, Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Oliva, Aude and Torralba, Antonio. [CAM](https://arxiv.org/pdf/1512.04150.pdf)
 2. 2020ECCV Rethinking Class Activation Mapping for Weakly Supervised Object Localization, Wonho Bae, Junhyug Noh, Gunhee Kim.[CAM](https://link.springer.com/chapter/10.1007/978-3-030-58555-6_37)
