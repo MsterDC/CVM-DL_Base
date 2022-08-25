@@ -20,7 +20,7 @@
 2. 2017CVPR - SphereFace: Deep Hypersphere Embedding for Face Recognition, Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, Le Song. [A-Softmax](https://arxiv.org/pdf/1704.08063.pdf)
 3. 2018ICLRW - Additive Margin Softmax for Face Verification, Feng Wang, Weiyang Liu, Haijun Liu, Jian Cheng. [Am-Softmax](https://arxiv.org/pdf/1801.05599.pdf)
 4. TechReport - GroupSoftmax：利用COCO和CCTSDB训练83类检测器, Chen, Yuntao and and Han, et al. [Group-Softmax](https://zhuanlan.zhihu.com/p/73162940)
-5. 2020CVPR Overcoming Classifier Imbalance for Long-tail Object Detection with Balanced Group Softmax, Yu Li, Tao Wang, Bingyi Kang, Sheng Tang, Chunfeng Wang, Jintao Li, Jiashi Feng(https://arxiv.org/abs/2006.10408)
+5. 2020CVPR Overcoming Classifier Imbalance for Long-tail Object Detection with Balanced Group Softmax, Yu Li, Tao Wang, Bingyi Kang, Sheng Tang, Chunfeng Wang, Jintao Li, Jiashi Feng[GroupSoftmax](https://arxiv.org/abs/2006.10408)
 6. 2017PMLR Efficient softmax approximation for GPUs, Grave, Armand Joulin, Moustapha Cissé, David Grangier, Hervé Jégou [softmax](http://proceedings.mlr.press/v70/grave17a.html?ref=https://githubhelp.com)
 
 [Q5] 
