@@ -8,6 +8,7 @@
 
 ## 🔥 Paper List
 (请按照问题顺序登记⬇️: From #1 to #83)
+
 [Q2]
 1. 2011JMLR - Deep sparse rectifier neural networks, Glorot, Xavier and Bordes, Antoine and Bengio, Yoshua. [ReLU]( http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf)
 2. 2013 - Rectifier nonlinearities improve neural network acoustic models, Andrew L. Maas, Awni Y. Hannun and Andrew Y. Ng.[Leaky ReLU](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.693.1422&rep=rep1&type=pdf)
