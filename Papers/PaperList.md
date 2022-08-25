@@ -13,15 +13,15 @@
 2. 2013 - Rectifier nonlinearities improve neural network acoustic models, Andrew L. Maas, Awni Y. Hannun and Andrew Y. Ng.[Leaky ReLU](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.693.1422&rep=rep1&type=pdf)
 3. 2015 - Fast and accurate deep network learning by exponential linear units (elus), Djork-Arne Clevert, Thomas Unterthiner and Sepp Hochreiter.[ELU](https://arxiv.org/pdf/1511.07289.pdf%5cnhttp://arxiv.org/abs/1511.07289%5cnhttp://arxiv.org/abs/1511.07289.pdf)
 4. 2015ICCV - Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification, Kaiming He, Xiangyu Zhang, Shaoqing Ren and Jian Sun.[PReLU](https://openaccess.thecvf.com/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf)
-5. 2020SMA DPReLU: Dynamic Parametric Rectified Linear Unit, Kien Mai Ngoc∗, Donghun Yang,  Iksoo Shin, Hoyong Kim, Myunggwon Hwang†[DPRelu](https://dl.acm.org/doi/abs/10.1145/3426020.3426049?casa_token=stfS9VciIHsAAAAA:EG5QNTijIOMXeG9XqYjGsN98N7NgVvR6XR88S2KPA-WNBfXMKV5ThUigkL3Bq-dO2tlmN6_jER3V8w)
+5. 2020SMA DPReLU: Dynamic Parametric Rectified Linear Unit, Kien Mai Ngoc∗, Donghun Yang,  Iksoo Shin, Hoyong Kim, Myunggwon Hwang†. [DPRelu](https://dl.acm.org/doi/abs/10.1145/3426020.3426049?casa_token=stfS9VciIHsAAAAA:EG5QNTijIOMXeG9XqYjGsN98N7NgVvR6XR88S2KPA-WNBfXMKV5ThUigkL3Bq-dO2tlmN6_jER3V8w)
 
 [Q4]
 1. 2016ICML - Large-Margin Softmax Loss for Convolutional Neural Networks, Weiyang Liu, Yandong Wen, Zhiding Yu, Meng Yang. [L-Softmax](https://arxiv.org/pdf/1612.02295.pdf)
 2. 2017CVPR - SphereFace: Deep Hypersphere Embedding for Face Recognition, Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, Le Song. [A-Softmax](https://arxiv.org/pdf/1704.08063.pdf)
 3. 2018ICLRW - Additive Margin Softmax for Face Verification, Feng Wang, Weiyang Liu, Haijun Liu, Jian Cheng. [Am-Softmax](https://arxiv.org/pdf/1801.05599.pdf)
 4. TechReport - GroupSoftmax：利用COCO和CCTSDB训练83类检测器, Chen, Yuntao and and Han, et al. [Group-Softmax](https://zhuanlan.zhihu.com/p/73162940)
-5. 2020CVPR Overcoming Classifier Imbalance for Long-tail Object Detection with Balanced Group Softmax, Yu Li, Tao Wang, Bingyi Kang, Sheng Tang, Chunfeng Wang, Jintao Li, Jiashi Feng[GroupSoftmax](https://arxiv.org/abs/2006.10408)
-6. 2017PMLR Efficient softmax approximation for GPUs, Grave, Armand Joulin, Moustapha Cissé, David Grangier, Hervé Jégou [softmax](http://proceedings.mlr.press/v70/grave17a.html?ref=https://githubhelp.com)
+5. 2020CVPR Overcoming Classifier Imbalance for Long-tail Object Detection with Balanced Group Softmax, Yu Li, Tao Wang, Bingyi Kang, Sheng Tang, Chunfeng Wang, Jintao Li, Jiashi Feng. [GroupSoftmax](https://arxiv.org/abs/2006.10408)
+6. 2017PMLR Efficient softmax approximation for GPUs, Grave, Armand Joulin, Moustapha Cissé, David Grangier, Hervé Jégou. [softmax](http://proceedings.mlr.press/v70/grave17a.html?ref=https://githubhelp.com)
 
 [Q5] 
 1. 2016ECCV - A Discriminative Feature Learning Approach for Deep Face Recognition, Ronneberger, Yandong Wen, Kaipeng Zhang, Zhifeng Li, and Yu Qiao. [Center Loss](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46478-7_31.pdf)
@@ -37,8 +37,8 @@
 [Q19] 
 1. 2014JMLR - Dropout: A Simple Way to Prevent Neural Networks from
 Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov. [Dropout](https://cs.nju.edu.cn/zhangl/dropout.pdf)
-2. 2012NEC Improving neural networks by preventing co-adaptation of feature detectors, Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, Ruslan R. Salakhutdinov[Dropout](https://arxiv.org/abs/1207.0580)
-3. 2013 Improving Neural Networks with Dropout, Nitish Srivastava , Nitish Srivastava.[Dropout](http://www.cs.toronto.edu/~nitish/msc_thesis.pdf)
+2. 2012NEC Improving neural networks by preventing co-adaptation of feature detectors, Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, Ruslan R. Salakhutdinov. [Dropout](https://arxiv.org/abs/1207.0580)
+3. 2013 Improving Neural Networks with Dropout, Nitish Srivastava , Nitish Srivastava. [Dropout](http://www.cs.toronto.edu/~nitish/msc_thesis.pdf)
 
 [Q23] 
 1. 2012NIPS - ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E. [AlexNet](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
@@ -57,7 +57,7 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 3. 2016CVPR - Rethinking the inception architecture for computer vision, Szegedy C, Vanhoucke V, Ioffe S, et al. [Inception(v3)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf)
 4. 2017CVPR - Xception: Deep learning with depthwise separable convolutions, François Chollet. [Xception](https://arxiv.org/pdf/1610.02357.pdf)
 5. 2017CVPR - Mobilenets: Efficient convolutional neural networks for mobile vision applications, Howard, Andrew G and Zhu, Menglong and Chen, Bo and Kalenichenko, Dmitry and Wang, Weijun and Weyand, Tobias and Andreetto, Marco and Adam, Hartwig. [MobileNet](https://arxiv.org/pdf/1704.04861.pdf)
-6. 2016CVPR Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke[Inception-v4](https://arxiv.org/pdf/1602.07261.pdf)
+6. 2016CVPR Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke. [Inception-v4](https://arxiv.org/pdf/1602.07261.pdf)
 
 [Q27] 2019ICML - Efficientnet: Rethinking model scaling for convolutional neural networks, Tan, Mingxing and Le, Quoc. [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
 
@@ -70,13 +70,12 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 [Q31]
 1. 2017CVPR - Aggregated Residual Transformations for Deep Neural Networks, Saining Xie, Ross Girshick, Piotr Dollár, Zhuowen Tu, Kaiming He. [ResNext](https://arxiv.org/pdf/1611.05431.pdf)
 2. 2018CVPR - Shufflenet: An extremely efficient convolutional neural network for mobile devices, Zhang, Xiangyu and Zhou, Xinyu and Lin, Mengxiao and Sun, Jian. [ShuffleNet](https://arxiv.org/pdf/1707.01083.pdf)
-3. 2018ECCV ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design, Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, Jian Sun [ShuffleNet v2](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)
+3. 2018ECCV ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design, Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, Jian Sun. [ShuffleNet v2](https://openaccess.thecvf.com/content_ECCV_2018/html/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.html)
 
 [Q32] 
 1. 2016 - A guide to convolution arithmetic for deep learning, Dumoulin, Vincent and Visin, Francesco. [Transposed Convolution](https://arxiv.org/pdf/1603.07285.pdf)
-2. 2010CVPR Deconvolutional networks, Matthew D. Zeiler; Dilip Krishnan; Graham W. Taylor; Rob Fergus
-[Deconvolutional networks](https://ieeexplore.ieee.org/abstract/document/5539957)
-3. 2011CVPR Adaptive deconvolutional networks for mid and high level feature learning, Matthew D. Zeiler; Graham W. Taylor; Rob Fergus[Adaptive deconvolutional networks](https://ieeexplore.ieee.org/abstract/document/6126474)
+2. 2010CVPR Deconvolutional networks, Matthew D. Zeiler; Dilip Krishnan; Graham W. Taylor; Rob Fergus. [Deconvolutional networks](https://ieeexplore.ieee.org/abstract/document/5539957)
+3. 2011CVPR Adaptive deconvolutional networks for mid and high level feature learning, Matthew D. Zeiler; Graham W. Taylor; Rob Fergus. [Adaptive deconvolutional networks](https://ieeexplore.ieee.org/abstract/document/6126474)
 
 [Q33]
 1. 2017NIPS - Attention is all you need, Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. [Attention](https://arxiv.org/pdf/1706.03762.pdf)
@@ -91,8 +90,8 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 2. 2018Arxiv - Rethinking the smaller-norm-less-informative assumption in channel pruning of convolution layers, Ye J, Lu X, Lin Z, et al. [Ref-2](https://arxiv.org/pdf/1802.00124.pdf)
 3. 2018ECCV - Data-driven sparse structure selection for deep neural networks, Huang Z, Wang N. [Ref-3](https://openaccess.thecvf.com/content_ECCV_2018/papers/Zehao_Huang_Data-Driven_Sparse_Structure_ECCV_2018_paper.pdf)
 4. 2017ICCV - Channel pruning for accelerating very deep neural networks, He Y, Zhang X, Sun J. [Ref-4](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Channel_Pruning_for_ICCV_2017_paper.pdf)
-5. 2018WACV Learning to Prune Filters in Convolutional Neural Networks, Qiangui Huang; Kevin Zhou; Suya You; Ulrich Neumann[Ref-5](https://ieeexplore.ieee.org/abstract/document/8354187)
-6. 2018CVPR Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks, Yang He, Guoliang Kang, Xuanyi Dong, Yanwei Fu, Yi Yang[Ref-6](https://arxiv.org/abs/1808.06866)
+5. 2018WACV Learning to Prune Filters in Convolutional Neural Networks, Qiangui Huang; Kevin Zhou; Suya You; Ulrich Neumann. [Ref-5](https://ieeexplore.ieee.org/abstract/document/8354187)
+6. 2018CVPR Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks, Yang He, Guoliang Kang, Xuanyi Dong, Yanwei Fu, Yi Yang. [Ref-6](https://arxiv.org/abs/1808.06866)
 
 [Q38] 2016CVPR - Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
