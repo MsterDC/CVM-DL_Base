@@ -2,22 +2,25 @@
 
 Based on the [basic topics](https://github.com/MsterDC/CVM-DL_Base/blob/main/topic.md) of deep learning, all content is collected and organized by members of `JLU-CVM Group`.
 
-## :fire: Two Topic
+## 🆕 Two Topic
 * [Common Topic](https://github.com/MsterDC/CVM-DL_Base/blob/main/common_topic.md)
 * [Specific Topic](https://github.com/MsterDC/CVM-DL_Base/blob/main/specific_topic.md)
 
 ## :book: Paper
 * [Related info](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers)
 * [Paper List](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PaperList.md)
-* [Download/Mark](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PDFs)
+* 🆕 [Download/Mark](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PDFs)
 
-## :fire: Work Space
+## 🔗 Work Space
 * [Working Doc](https://docs.qq.com/sheet/DQ1RHcU5YZ3daeHpX)
+
+## 🆕 Check List
+* [Record List](https://github.com/MsterDC/CVM-DL_Base/blob/main/difficult_problems.md)
 
 ## :gear: Code
 * [Code Collection](https://github.com/MsterDC/CVM-DL_Base/tree/main/code)
 
-## Answer Process
+## 🆕 Answer Process
 ![image](ans_process.jpg)
 
 ## 👍 Acknowledgements
