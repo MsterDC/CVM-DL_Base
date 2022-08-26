@@ -2,25 +2,26 @@
 
 Based on the [basic topics](https://github.com/MsterDC/CVM-DL_Base/blob/main/topic.md) of deep learning, all content is collected and organized by members of `JLU-CVM Group`.
 
-## 🆕 Two Topic
+## Two Topics
 * [Common Topic](https://github.com/MsterDC/CVM-DL_Base/blob/main/common_topic.md)
 * [Specific Topic](https://github.com/MsterDC/CVM-DL_Base/blob/main/specific_topic.md)
 
 ## :book: Paper
-* [Related info](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers)
+* [Related](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers)
 * [Paper List](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PaperList.md)
-* 🆕 [Download/Mark](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PDFs)
+* [Download/Mark](https://github.com/MsterDC/CVM-DL_Base/tree/main/Papers/PDFs)
 
 ## 🔗 Work Space
-* [Working Doc](https://docs.qq.com/sheet/DQ1RHcU5YZ3daeHpX)
+* [Collaboration Document](https://docs.qq.com/sheet/DQ1RHcU5YZ3daeHpX)
 
-## 🆕 Check List
-* [Record List](https://github.com/MsterDC/CVM-DL_Base/blob/main/difficult_problems.md)
+## :fire: Check List
+* [Topic Assignment](https://github.com/MsterDC/CVM-DL_Base/blob/main/topic_assignment_record.md)
+* [Hard Recording](https://github.com/MsterDC/CVM-DL_Base/blob/main/difficult_problems.md)
 
 ## :gear: Code
 * [Code Collection](https://github.com/MsterDC/CVM-DL_Base/tree/main/code)
 
-## 🆕 Answer Process
+## :fire: Answer Process
 ![image](ans_process.jpg)
 
 ## 👍 Acknowledgements
