@@ -2,6 +2,10 @@
 
 Based on the [basic topics](https://github.com/MsterDC/CVM-DL_Base/blob/main/topic.md) of deep learning, all content is collected and organized by members of `JLU-CVM Group`.
 
+### ‼️🆕 Deadline for the 1st round of questions：`Tuesday, August 30, 2022 at 9pm`
+### ‼️🆕 Deadline for the 2nd round of questions：`Friday, September 2, 2022 at 9pm`
+### ‼️🆕 The 3rd round of questions is expected to start `Saturday, September 3, 2022 at 8pm`
+
 ## Two Topics
 * [Common Topic](https://github.com/MsterDC/CVM-DL_Base/blob/main/common_topic.md)
 * [Specific Topic](https://github.com/MsterDC/CVM-DL_Base/blob/main/specific_topic.md)
