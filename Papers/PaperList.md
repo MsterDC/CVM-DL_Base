@@ -107,6 +107,9 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 [Q61]
 1. 2020ECCV - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, By Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng. (NeRF)[https://dl.acm.org/doi/pdf/10.1145/3503250]
 
+[Q62]
+Distilling the Knowledge in a Neural Network, Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff [知识蒸馏](https://arxiv.org/pdf/1503.02531.pdf)
+
 [Q71]
 1. 2017ICML - Wasserstein generative adversarial networks, Martin Arjovsky, Soumith Chintala, Léon Bottou. [WGAN](https://arxiv.org/pdf/1701.07875.pdf)
 2. 2017ICCV - Unpaired image-to-image translation using cycle-consistent adversarial networks, Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A. [CycleGAN](https://arxiv.org/pdf/1703.10593.pdf)
