@@ -28,6 +28,9 @@
 1. 2016ECCV - A Discriminative Feature Learning Approach for Deep Face Recognition, Ronneberger, Yandong Wen, Kaipeng Zhang, Zhifeng Li, and Yu Qiao. [Center Loss](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46478-7_31.pdf)
 2. 2017ICCV - Focal loss for dense object detection, Lin T Y, Goyal P, Girshick R, et al. [Focal Loss](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)
 
+[Q15]
+1. 2017CVPR - Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour, Priya Goyal, Piotr Dollár, Ross Girshick, Pieter Noordhuis, Lukasz Wesolowski, Aapo Kyrola, Andrew Tulloch, Yangqing Jia, Kaiming He. [Warmup](https://arxiv.org/pdf/1706.02677.pdf)
+
 [Q17] 
 1. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, Sergey Ioffe, Christian Szegedy. [BN](https://arxiv.org/pdf/1502.03167v2.pdf)  <br>
 2. Layer Normalization, Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E. [LN](https://arxiv.org/pdf/1607.06450.pdf)  <br>
