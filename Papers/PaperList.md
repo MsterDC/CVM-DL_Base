@@ -107,6 +107,9 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 4. 2016CVPR - You only look once: Unified, real-time object detection, Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali. [YOLO](https://arxiv.org/pdf/1506.02640.pdf)
 5. 2019IEEE Access - A Survey of Deep Learning-based Object Detection, Licheng Jiao, Fan Zhang, Fang Liu, Shuyuan Yang, Lingling Li, Zhixi Feng, Rong Qu. [Review](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8825470)
 
+[Q55]
+1. NIPS 2017 - GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium, Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter. [FID](https://arxiv.org/pdf/1706.08500.pdf)
+
 [Q58]
 1. 2016 CVPR - Image Style Transfer Using Convolutional Neural Networks, Leon A. Gatys, Alexander S. Ecker, Matthias Bethge. [NST](https://openaccess.thecvf.com/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 
