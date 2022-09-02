@@ -134,6 +134,9 @@ Distilling the Knowledge in a Neural Network, Hinton, Geoffrey and Vinyals, Orio
 [Q73]
 1. 2015ICLR - NICE: NON-LINEAR INDEPENDENT COMPONENTS ESTIMATION, Laurent Dinh David Krueger Yoshua Bengio. [FLOW](https://arxiv.org/pdf/1410.8516.pdf))
 
+[Q75]
+1.2021CVPR - GAN Inversion: A Survey, Weihao Xia, Yulun Zhang, Yujiu Yang, Jing-Hao Xue, Bolei Zhou, Ming-Hsuan Yang. [GAN Inversion](https://arxiv.org/pdf/2101.05278.pdf)
+
 [Q77] 
 1. 2016CVPR - Learning deep features for discriminative localization, Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Oliva, Aude and Torralba, Antonio. [CAM](https://arxiv.org/pdf/1512.04150.pdf)
 2. 2020ECCV Rethinking Class Activation Mapping for Weakly Supervised Object Localization, Wonho Bae, Junhyug Noh, Gunhee Kim.[CAM](https://link.springer.com/chapter/10.1007/978-3-030-58555-6_37)
