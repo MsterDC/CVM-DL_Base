@@ -108,6 +108,9 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 5. 2019IEEE Access - A Survey of Deep Learning-based Object Detection, Licheng Jiao, Fan Zhang, Fang Liu, Shuyuan Yang, Lingling Li, Zhixi Feng, Rong Qu. [Review](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8825470)
 
 [Q55]
+1. 2018CVPR - The unreasonable effectiveness of deep features as a perceptual metric, Zhang, Richard and Isola, Phillip and Efros, Alexei A and Shechtman, Eli and Wang, Oliver. [LPIPS](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.pdf)
+
+[Q55]
 1. NIPS 2017 - GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium, Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter. [FID](https://arxiv.org/pdf/1706.08500.pdf)
 
 [Q58]
