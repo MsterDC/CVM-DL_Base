@@ -107,7 +107,7 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 4. 2016CVPR - You only look once: Unified, real-time object detection, Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali. [YOLO](https://arxiv.org/pdf/1506.02640.pdf)
 5. 2019IEEE Access - A Survey of Deep Learning-based Object Detection, Licheng Jiao, Fan Zhang, Fang Liu, Shuyuan Yang, Lingling Li, Zhixi Feng, Rong Qu. [Review](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8825470)
 
-[Q55]
+[Q54]
 1. 2018CVPR - The unreasonable effectiveness of deep features as a perceptual metric, Zhang, Richard and Isola, Phillip and Efros, Alexei A and Shechtman, Eli and Wang, Oliver. [LPIPS](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.pdf)
 
 [Q55]
