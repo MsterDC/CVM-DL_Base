@@ -80,8 +80,9 @@ Adam的优点主要在于经过偏置校正后，每一次迭代学习率都有�
 ```
 
 ---
-```
+
 **[16]：解释 label smoothing [[参考链接](https://www.cnblogs.com/irvingluo/p/13873699.html)]**
+ps:加载不出来公式的同学请参考链接或下载[github公式显示插件](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
 
 标签平滑（Label smoothing），像L1、L2和dropout一样，是机器学习领域的一种正则化方法，通常用于分类问题，
 目的是防止模型在训练时过于自信地预测标签，改善泛化能力差的问题。
@@ -119,7 +120,7 @@ $$
 $$
 
 这样，标签平滑后的分布就相当于往真实分布中加入了噪声，避免模型对于正确标签过于自信，使得预测正负样本的输出值差别不那么大，从而避免过拟合，提高模型的泛化能力。
-```
+
 ---
 
 [18] 池化层有何作用？
