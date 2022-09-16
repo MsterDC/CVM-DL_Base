@@ -82,6 +82,7 @@ Adam的优点主要在于经过偏置校正后，每一次迭代学习率都有�
 ---
 
 **[16]：解释 label smoothing [[参考链接](https://www.cnblogs.com/irvingluo/p/13873699.html)]**
+
 ps:加载不出来公式的同学请参考链接或下载[github公式显示插件](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
 
 标签平滑（Label smoothing），像L1、L2和dropout一样，是机器学习领域的一种正则化方法，通常用于分类问题，
@@ -159,6 +160,9 @@ $$
 ---
 
 **[41]：使用 1 次 7x7 卷积的模型和使用 3 次 5x5 卷积的模型在性能、感受野和参数量上是否一样？[[参考链接](https://blog.csdn.net/BigData_Mining/article/details/104418748/)]**
+
+
+ps:加载不出来公式的同学请参考链接或下载[github公式显示插件](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
 
 在卷积神经网络中，感受野（Receptive Field）的定义是卷积神经网络每一层输出的特征图（feature map）上的像素点在输入图片上映射的区域大小。
 再通俗点的解释是，特征图上的一个点对应输入图上的区域。
