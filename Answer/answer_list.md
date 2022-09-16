@@ -236,7 +236,7 @@ $$
 元学习的目的是获取一组更好的模型初始化参数（即让模型自己学会初始化）。我们通过（许多）N-ways，K-shot的任务（训练任务）进行元学习的训练，
 使得模型学习到“先验知识”（初始化的参数）。这个“先验知识”在新的N-ways，K-shot任务上可以表现的更好。算法具体流程如下：
 
-<img src="元学习流程.jpg" width = "500" div align=center />
+<img src="元学习流程.jpg" width = "700" div align=center />
 
 Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那么在更新meta网络时，要使用sample出所有任务的梯度之和。
 
