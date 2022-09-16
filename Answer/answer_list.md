@@ -106,13 +106,13 @@ $$
 label smoothing的数学定义：label smoothing结合了均匀分布，用更新的标签向量 $\hat{y_i}$ 来替换传统的one-hot编码的标签向量$y_{hot}$:
 
 $$
-\hat{y}_i=y_{hot}(1-\alpha)+\alpha/K
+\hat{y_i}=y_{hot}(1-\alpha)+\alpha/K
 $$
 
 其中K为多分类的类别总个数，$\alpha$是一个较小的超参数（一般取0.1），即
 
 $$
-\hat{y}_i=\begin{cases}  
+\hat{y_i}=\begin{cases}  
 1-\alpha, & i=target \\
 \alpha/K, & i\neq target  
 \end{cases}
