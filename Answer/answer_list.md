@@ -34,23 +34,22 @@ Please submit your answers here
 [参考链接1](https://www.zhihu.com/question/32673260) | [参考链接2](https://zhuanlan.zhihu.com/p/22252270) | [参考链接3](https://blog.csdn.net/yinyu19950811/article/details/90476956)
 ```
 1. Batch的大小对于模型收敛的影响
-
 首先考虑一种极端情况，每次只训练一个样本，即 Batchsize = 1，训练时每次修正方向以各自样本的梯度方向修正，横冲直撞各自为政，
 难以达到收敛;
-
 在合理范围内，增大Batchsize，其确定的下降方向越准，引起训练震荡越小，有助于收敛的稳定性，跑完一次epoch所需的迭代次数减少，
 对于相同数据量的处理速度进一步加快;
-
-进一步增大Batchsize，跑完一次epoch所需的迭代次数进一步减少，模型的性能会下降，模型的泛化能力也会下降。Hoffer等人[[1](https://proceedings.neurips.cc/paper/2017/file/a5e0ff62be0b08456fc7f1e88812af3d-Paper.pdf)]的研究表明，大的Batchsize性能下降是因为训练时间不够长，本质上并不是Batchsize的问题，
-在同样的epochs下的参数更新变少了，因此需要更长的迭代次数，要想达到相同的精度，其所花费的时间大大增加了，
-从而对参数的修正也就显得更加缓慢。Batchsize增大到一定程度，其确定的下降方向已经基本不再变化（在样本多的情况下，
-下降方向差异不大）     
+进一步增大Batchsize，跑完一次epoch所需的迭代次数进一步减少，模型的性能会下降，模型的泛化能力也会下降。
+Hoffer等人的研究表明[https://proceedings.neurips.cc/paper/2017/file/a5e0ff62be0b08456fc7f1e88812af3d-Paper.pdf]，
+大的Batchsize性能下降是因为训练时间不够长，本质上并不是Batchsize的问题，在同样的epochs下的参数更新变少了，
+因此需要更长的迭代次数，要想达到相同的精度，其所花费的时间大大增加了，从而对参数的修正也就显得更加缓慢。
+Batchsize增大到一定程度，其确定的下降方向已经基本不再变化（在样本多的情况下，下降方向差异不大）     
 
 2. Adam optimizer与SGD的优缺点对比
-
-对于SGD，选择合适的learning rate比较困难，因为SGD对所有的参数更新使用同样的learning rate。对于稀疏数据或者特征，有时对于不经常出现的特征我们可能想更新快一些，对于常出现的特征更新慢一些，这时候SGD就不太能满足要求了。SGD收敛速度慢，容易收敛到局部最优，并且在某些情况下可能被困在鞍点。   
-
-Adam (Adaptive Moment Estimation)本质上是带有动量项的RMSprop，它利用梯度的一阶矩估计和二阶矩估计动态调整每个参数的学习率。Adam的优点主要在于经过偏置校正后，每一次迭代学习率都有个确定范围，使得参数比较平稳，提升训练速度。
+对于SGD，选择合适的learning rate比较困难，因为SGD对所有的参数更新使用同样的learning rate。对于稀疏数据或者特征，
+有时对于不经常出现的特征我们可能想更新快一些，对于常出现的特征更新慢一些，这时候SGD就不太能满足要求了。
+SGD收敛速度慢，容易收敛到局部最优，并且在某些情况下可能被困在鞍点。   
+Adam (Adaptive Moment Estimation)本质上是带有动量项的RMSprop，它利用梯度的一阶矩估计和二阶矩估计动态调整每个参数的学习率。
+Adam的优点主要在于经过偏置校正后，每一次迭代学习率都有个确定范围，使得参数比较平稳，提升训练速度。
 ```
 ---
 
