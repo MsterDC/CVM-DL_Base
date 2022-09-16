@@ -1,8 +1,10 @@
 # Answers of [all topics](https://github.com/MsterDC/CVM-DL_Base/blob/main/topic.md) in deep learning
 
-Please submit your answers here
+Submitting your answers here.
 
-## 🔖 Example
+---
+
+## 🎃 Answers
 
 [5] 解释 Focal Loss 与 Center Loss
 - [参考论文1](xxx.pdf) | [参考论文2](xxx.pdf) | [参考链接1](xxx.com) | [参考链接2](xxx.com)
@@ -29,9 +31,9 @@ Please submit your answers here
    GD是整个training set计算一次梯度，minibatchSGD是每个batch计算一次，SGD是每个样本计算一次。
    随着计算梯度的样本数增加，计算出来的梯度越接近于真实的梯度方向，但速度也越慢，同时没有了噪声的扰动，会难以走出局部最优解。
 ```
-[12]：Batch的大小对于模型收敛的影响？Adam optimizer与SGD的优缺点对比？
 
-[参考链接1](https://www.zhihu.com/question/32673260) | [参考链接2](https://zhuanlan.zhihu.com/p/22252270) | [参考链接3](https://blog.csdn.net/yinyu19950811/article/details/90476956)
+[12]：Batch的大小对于模型收敛的影响？Adam optimizer与SGD的优缺点对比？
+- [参考链接1](https://www.zhihu.com/question/32673260) | [参考链接2](https://zhuanlan.zhihu.com/p/22252270) | [参考链接3](https://blog.csdn.net/yinyu19950811/article/details/90476956) | [Hoffer](https://proceedings.neurips.cc/paper/2017/file/a5e0ff62be0b08456fc7f1e88812af3d-Paper.pdf)
 ```
 1. Batch的大小对于模型收敛的影响
 
@@ -42,8 +44,7 @@ Please submit your answers here
 对于相同数据量的处理速度进一步加快;
 
 进一步增大Batchsize，跑完一次epoch所需的迭代次数进一步减少，模型的性能会下降，模型的泛化能力也会下降。
-Hoffer等人的研究表明[https://proceedings.neurips.cc/paper/2017/file/a5e0ff62be0b08456fc7f1e88812af3d-Paper.pdf]，
-大的Batchsize性能下降是因为训练时间不够长，本质上并不是Batchsize的问题，在同样的epochs下的参数更新变少了，
+Hoffer等人的研究表明，大的Batchsize性能下降是因为训练时间不够长，本质上并不是Batchsize的问题，在同样的epochs下的参数更新变少了，
 因此需要更长的迭代次数，要想达到相同的精度，其所花费的时间大大增加了，从而对参数的修正也就显得更加缓慢。
 Batchsize增大到一定程度，其确定的下降方向已经基本不再变化（在样本多的情况下，下降方向差异不大）     
 
@@ -79,9 +80,8 @@ Adam的优点主要在于经过偏置校正后，每一次迭代学习率都有�
    因此，训练时会每个通道维护一个全局的均值和方差，用于测试时使用。
 ```
 
----
-
-**[16]：解释 label smoothing [[参考链接](https://www.cnblogs.com/irvingluo/p/13873699.html)]**
+[16] 解释 label smoothing 
+- [参考链接](https://www.cnblogs.com/irvingluo/p/13873699.html)
 
 ps:加载不出来公式的同学请参考链接或下载[github公式显示插件](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
 
@@ -150,17 +150,13 @@ $$
    其中，2-4步可以多次循环，获得更精简的模型。
 ```
 
----
-
 [39]：卷积层参数跟什么有关？影响输出特征图大小的因素包括？
 ```
 卷积层参数和卷积核大小还有个数有关，影响输出特征图大小的因素包括输入特征图大小、卷积核大小、padding的数目、步长
 ```
 
----
-
-**[41]：使用 1 次 7x7 卷积的模型和使用 3 次 5x5 卷积的模型在性能、感受野和参数量上是否一样？[[参考链接](https://blog.csdn.net/BigData_Mining/article/details/104418748/)]**
-
+[41] 使用 1 次 7x7 卷积的模型和使用 3 次 5x5 卷积的模型在性能、感受野和参数量上是否一样？
+- [参考链接](https://blog.csdn.net/BigData_Mining/article/details/104418748/)
 
 ps:加载不出来公式的同学请参考链接或下载[github公式显示插件](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
 
@@ -193,19 +189,20 @@ $$
    mAP@x，这里的x指的是IoU的阈值设定。
 ```
 
-60.什么是图像重定向？
+[60] 什么是图像重定向？
+- [参考链接1](https://karthikkaranth.me/blog/implementing-seam-carving-with-python/) | [参考链接2](https://karthikkaranth.me/blog/implementing-seam-carving-with-python/)
+
 ```
 Image retargeting 用于改变图像的大小和比例信息来适应各种尺寸的屏幕。重定向的结果需要保留重要的图像内容，重要的图像结构且没有人工痕迹。重定向的技术包括：
 （1）Crop裁剪：但是当目标区域较大时，容易损失重要的图像区域
 （2）Scale缩放：但是当比例变化太大时会导致明显拉伸或挤压变形
 （3）Seam Carving接缝裁剪：首先根据能量函数计算每个像素的能量值，能量越大代表像素包含的信息越多，在进行图像变换过程中需避开这类像素。在算法中我们需从上到下列出所有可能的夹缝路线并找到一条能量最小的夹缝（seam），然后移除该夹缝，同时图像宽度-1。这项技术可能会导致目标不一致畸变。
 （4）此外，重定向技术还包括多算子即crop，scale，seam carving三种方法的结合，逐步对图像进行操作，成本最低的操作顺序就会得到最优的重定向结果。
-[参考链接1]（https://karthikkaranth.me/blog/implementing-seam-carving-with-python/）|[参考链接2]（https://karthikkaranth.me/blog/implementing-seam-carving-with-python/）
----
+```
 
 [62]：什么是知识蒸馏
 
-[参考论文](https://link.springer.com/article/10.1007/s11263-021-01453-z)
+- [参考论文](https://link.springer.com/article/10.1007/s11263-021-01453-z)
 
 ```
 知识蒸馏属于模型轻量化的一种方法，存在一个大的教师模型，和一个轻量化的学生模型，知识蒸馏的任务就是
@@ -219,9 +216,8 @@ Image retargeting 用于改变图像的大小和比例信息来适应各种尺�
 学生模型并不一定是一个轻量化的模型。与此同时知识蒸馏也发展出了更多的范式，详细的可以参考链接中的综述。
 ```
 
----
-
-**[64]：什么是元学习 [[参考链接](https://zhuanlan.zhihu.com/p/136975128)]**
+[64] 什么是元学习 
+- [参考链接](https://zhuanlan.zhihu.com/p/136975128)
 
 元学习Meta Learning，含义为学会学习，即learn to learn。Meta Learning希望使得模型获取一种“学会学习”的能力，
 使其可以在获取已有“知识”的基础上快速学习新的任务
@@ -256,11 +252,8 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
    泛化性：模型对于新数据做出准确预测的能力。
 ```
 
----
-
-[81]：CNN 类结构与 Transformer 类结构有什么典型区别
-
-[参考链接](https://blog.csdn.net/qq_39478403/article/details/121099094?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121099094-blog-118089613.pc_relevant_multi_platform_whitelistv4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121099094-blog-118089613.pc_relevant_multi_platform_whitelistv4&utm_relevant_index=2)
+[81] CNN 类结构与 Transformer 类结构有什么典型区别
+- [参考链接](https://blog.csdn.net/qq_39478403/article/details/121099094?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121099094-blog-118089613.pc_relevant_multi_platform_whitelistv4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121099094-blog-118089613.pc_relevant_multi_platform_whitelistv4&utm_relevant_index=2)
 
 ```
 一方面，CNN 的 Conv 算子存在感受野较局限的问题，为扩大网络的关注区域，需多层堆叠卷积-池化结构，但随之带来的问题是
@@ -270,11 +263,7 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
 并且Multi-Head机制保证了网络可关注到多个Discriminative Parts(每个Head都是一个独立的Attention)，这是Transformer与CNN主要区别之一。
 ```
 
----
-
-## 🎃 Answers
-
-[3]：简述 Softmax 的定义及意义
+[3] 简述 Softmax 的定义及意义
 - [参考链接](https://zhuanlan.zhihu.com/p/105722023)
 ```
 定义：
@@ -284,9 +273,7 @@ Softmax可以保证每个样本分配为每个类别的概率介于0-1之间，�
 由于softmax采取指数形式计算，所以他可以提高最大值与其他值得差距；
 ```
 
----
-
-[4]：简述 L/A/Am Softmax、GroupSoftMax 的定义及意义
+[4] 简述 L/A/Am Softmax、GroupSoftMax 的定义及意义
 - [参考论文](yyy) | [参考论文](yyy) | [参考论文](yyy) | [参考论文](yyy) | [参考链接](http://link.zhihu.com/?target=https%3A//github.com/chengzhengxin/groupsoftmax-simpledet)
 ```
 L-Softmax：Large Margin Softmax LossLarge Margin Softmax Loss，在softmax后计算交叉熵时，将向量与GT类别的权重W计算过程的夹角乘一个m系数，m大于1，这样做使得网络优化时对夹角的要求更苛刻，能够让特征与GT类别W之间的夹角更小，达到类内更紧凑，类间更疏远的效果，提高特征的准确性；
@@ -298,9 +285,7 @@ Group-Softmax：解决两组数据集类别冲突问题，由于是与类别有�
 对于Head部分，要将有交集的部分的标签，细分时都设置为1，得到一个形似one hot label的标签
 ```
 
----
-
-[10]：模型的 bias 与 variance 的区别？如何降低？
+[10] 模型的 bias 与 variance 的区别？如何降低？
 - [参考链接](yyy)
 ```
 模型的 bias 与 variance 的区别:
@@ -313,17 +298,13 @@ Group-Softmax：解决两组数据集类别冲突问题，由于是与类别有�
 降低variance：数据增强提高训练集噪声，使用预训练模型，使用drop out，降低模型复杂度
 ```
 
----
-
-[40]：对于 VGG16 来说，当图像尺寸变为 2 倍，卷积层的参数数量变为几倍？
+[40] 对于 VGG16 来说，当图像尺寸变为 2 倍，卷积层的参数数量变为几倍？
 - [参考链接](yyy)
 ```
 卷积核还是原来的那一套卷积核，感觉参数里不变啊，但是由于尺寸增加了2倍，计算量应该会增加4倍
 ```
 
----
-
-[45]：怎么对模型效果进行评估的？当机器学习性 能遭遇瓶颈时，你会如何优化？
+[45] 怎么对模型效果进行评估的？当机器学习性 能遭遇瓶颈时，你会如何优化？
 - [参考链接](yyy)
 ```
 定量评价：不同的任务会对应着不同的指标，比如分类常用ACC，检测用map；
@@ -333,9 +314,7 @@ Group-Softmax：解决两组数据集类别冲突问题，由于是与类别有�
 如果是很多个loss一起优化在某些数据集上效果好，另外数据集效果差，还有可能是loss权重在不同数据集上需要不同的原因，需要调试到合适的loss权重
 ```
 
----
-
-[50]：RCNN、Fast RCNN 和 Faster RCNN 的区别与联系？YOLO 与 Faster RCNN 的区别
+[50] RCNN、Fast RCNN 和 Faster RCNN 的区别与联系？YOLO 与 Faster RCNN 的区别
 - [参考链接](https://blog.csdn.net/Dr_maker/article/details/125406277)
 ```
 RCNN: Selvctive search选择候选区域，AexNet+SVM分类；
@@ -345,26 +324,20 @@ YOLO 与 Faster RCNN:
 不同于Faster的两阶段先找proposal，再分类回归，YOLO直接在GT中心点对应的位置选取对应的feature进行分类和回归，这样做的好处速度更快，但缺点是由于负样本的feature太多，会造成map的下降。
 ```
 
----
-
-[56]：什么是长尾问题
+[56] 什么是长尾问题
 - [参考链接](yyy)
 ```
 长尾问题是分类任务上的一个领域，是指训练阶段的各个类别数据的样本数量是不平均的，有一些类别的数量很多，这些类被称为head类，有一些类别数量很少，被称为tail类，head类通常占比20%，head类的样本数量通常占训练集的80%，其余为tail类
 ```
 
----
-
-[57]：什么是开集识别
+[57] 什么是开集识别
 - [参考链接](yyy)
 ```
 开集识别是指训练阶段和测试阶段网络见到的数据类别不同的分类任务，训练阶段见过的类别少，用少类别进行训练，测试阶段见到的类别多于训练阶段，要求网络在测试过程既能正确识别训练阶段见过的类，又要拒绝识别测试阶段比训练阶段多出的类别；
 值得注意的是，开集问题通常在训练阶段数据量足够，不涉及长尾问题，而真实世界一般是开集+长尾叠加的，所以也有对应的开集+长尾叠加的这种任务。
 ```
 
----
-
-[69]：什么是 Prompt learning
+[69] 什么是 Prompt learning
 - [参考链接](yyy)
 ```
 Prompt learning中文直译叫提示学习，被称为NLP领域的第四范式；
@@ -372,9 +345,7 @@ Prompt learning中文直译叫提示学习，被称为NLP领域的第四范式�
 prompt通常包含5个研究方向：prompt设计，answer空间的设计，预训练模型的选择，prompt训练策略的设计，以及prompt范式与其他范式的结合，对于CV领域，目前的研究都集中在prompt设计方向
 ```
 
----
-
-[76]：什么是伪造检测
+[76] 什么是伪造检测
 - [参考链接](http://www.cjig.cn/html/jig/2022/1/20220104.htm)
 ```
 伪造检测分为两部分，伪造和检测：
@@ -392,17 +363,140 @@ prompt通常包含5个研究方向：prompt设计，answer空间的设计，预�
 CelebA，FaceForensics，UADFV，DeepFake-TIMIT等
 ```
 
----
-[2] xxx
-- [xxx](yyy) | [xxx](yyy)
-
+[24] 简述 NiN 的核心思想，你知道的 1x1 卷积一般都有何作用?
 ```
-1. xxx
-    - yyy
-2. xxx
-    - yyy
+* NiN作者认为当时的CNN中的conv filter相当于一种广义线性模型(GLM)，并且GLM的抽象水平很低，因此用有效的非线性函数逼近器代替GLM可以增强局部模型的抽象能力。
+作者提出在CNN网络中嵌入**micro network**结构 (作者将其称为 mlpconv layer) 来增强模型的局部抽象（非线性表达）能力，选择使用多层感知器（**实际为多层1x1卷积**）作为micro network的实现。
+论文中提出的整体网络结构包括三个mlpconv层和一个全局平均池化层(GAP)的叠加。
+关于GAP，作者认为可以将其看作是一个结构正则化器，它显式地强制特征映射为概念（类别）的置信映射。GAP的三点优势：
+    1. 相比于之前使用的FC层来说，GAP通过强制执行特征映射和类别之间的对应关系，更适合于卷积结构，因此，特征图可以很容易地解释为类别置信度图(categories confidence maps)。
+    2. 在GAP中没有参数进行优化，从而避免了FC层的过拟合；
+    3. 全局平均池化总结了空间信息，从而对输入的空间平移更具有鲁棒性。
+
+* 1x1 卷积在 CNN 中的作用主要包括:
+    1. 可以在不改变输入特征空间尺寸的情况下实现对特征通道的升、降维
+    2. 可以在不改变输入特征空间尺寸的情况下增加网络的深度（或者说增强网络的非线性表达能力）
+    3. 可以实现跨通道信息交互的作用（例如在深度可分离卷积中的应用）
 ```
 
+[37] 训练和测试原始 VGG19 网络时，为何要固定网络输入大小？如果使用了不同大小的输入图像，会出现什么问题？
+```
+VGG19在提取特征后跟的是三层全连接层(4096-4096-1000)，而一般当用到包含**全连接层**的网络时，就需要固定输入图像的大小。这是由于全连接层通常是将特征图展开(flatten)后的特征作为输入，而全连接层的参数数量是根据输入的维度固定的，当训练或者测试的时候网络输入不同尺寸的图像，经过卷积计算会输出 维度或者空间尺寸 不确定的特征图，当输入到全连接层时会发生输入维度不匹配的错误，导致无法计算。
+解决办法是先使用GAP层将特征的空间尺度下采样到单位大小，然后再接全连接层输出类别得分，这样就不会产生由于输入尺寸大小不同而产生的模型-输入适配问题。
+```
+
+[38] ResNet18 有多少卷积层？
+```
+ResNet18有17个卷积层，之所以称为18，是因为ResNet网络中还包括一个Max pooling池化层，用来对输入特征进行下采样。
+因此ResNet系列模型中，所包含的卷积层数量均是由后面的数字减1。
+除此之外，ResNet在输出层用的是GAP+SoftMax，通常GAP或者SoftMax不会被当做单独的层统计到模型本身所具有的层数当中。
+```
+
+[42] cross entropy loss, hinge loss, MSE loss 的公式？鲁棒性分别如何？
+
+$$
+CrossEntropy: H(p, q)=-\sum_{i=1}^n p\left(x_i\right) \log \left(q\left(x_i\right)\right)
+$$
+
+$$
+Hinge: L(y)=\max (0,1-\hat{y} y)
+$$
+
+$$
+MSE: L=\frac{1}{2 n} \sum_i^n\left(y_i-\hat{y}_i\right)^2
+$$
+
+* Cross Entropy Loss 采用了类间竞争机制，比较擅长于学习类间的信息，但是只关心对于正确标签预测概率的准确性，而忽略了其他非正确标签的差异，从而导致学习到的特征比较散。由于包含SoftMax计算，它对于输出中的最高值具有放大作用，使得它对于输入的噪声变化较为敏感。
+* Hinge Loss 表示如果被分类正确，损失为0，否则损失就为1-yf(x)。输出的预测值会在-1到1之间，该loss并不鼓励分类器过度自信，让某个正确分类的样本距离分割线超过1并不会有任何奖励，从而使分类器可以更专注于整体的误差，因此Hinge loss的鲁棒性相对较高，对异常点、噪声不敏感。
+* MSE Loss 通常用于回归任务，它通过计算输出与标签之间的差值的平方来衡量与真实数据分布的之间的的差异，即预测值与真实值差的平方的期望值，由于使用了平方计算，它对于数据中的异常点会比较敏感，导致它（在求和的时候）往往会赋予异常点更大的权重。
+
 ---
+
+[43] 分类任务为什么不使用 MSEloss？使用了会有什么问题？
+```
+1. 分类问题中label值的大小在欧式空间中是没有意义的。MSE度量的是预测值和目标值的欧式距离，而分类问题中常见的交叉熵衡量的是两个不同概率分布的差异程度，本质上解决的是概率问题，表征真实概率分布与预测概率分布的差异，和几何上的欧式距离无关；
+2. 分类问题是逻辑回归问题，要有激活函数这种非线性计算存在(例如sigmoid/softmax)，如果仍然使用MSE作为损失函数的话，MSE此时已经是非凸函数了，意味着拥有多个极值点，因此不适合作为分类的目标函数；
+3. 上述第2点的另外一个说法是，MSE Loss（mean-squared loss）当与Sigmoid或Softmax搭配使用时，loss的偏导数的变化趋势和预测值及真实值之间的差值的变化趋势不一致。也就是说当预测值与真实值的差值变大的时候，其偏导数反而可能变小。这可能意味着当预测错误时，依然没有梯度让网络可以学习。
+```
+
+[66] 什么是半监督学习、什么是弱监督学习，典型应用
+```
+* 半监督学习
+半监督学习介于传统监督学习和无监督学习之间，是一种新型机器学习方法，其思想是在标记样本数量很少的情况下，通过在模型训练中引入无标记样本来避免传统监督学习在训练样本不足(学习不充分)时出现性能(或模型)退化的问题。
+半监督学习有四种主流方法：基于生成的方法/基于图的方法/基于低密度假设的方法/基于分歧的方法.
+半监督既有有标记数据 xr，又有无标记数据 xu，一般无标记数据的数量远大于有标记数据。半监督学习又可以分为两种:
+    1. Transductive learning: 无标记数据就是测试数据
+    2. Inductive learning: 无标记数据不是测试数据，假设在训练时不知道测试集
+
+* 弱监督学习
+弱监督通常分为三种类型：不完全监督、不确切监督、不准确监督。
+    1. 不完全监督，指的是训练数据只有部分是带有标签的，同时大量数据是没有被标注过的。这是最常见的由于标注成本过高而导致无法获得完全的强监督信号的情况，该问题可以被形式化表达为：
+`在训练数据为 D = {(x_1, y_1), …, (x_l, y_l), x_{l+1}, …, x_m}，其中 l 个数据有标签、u=m-l 个数据无标签的情况下，训练得到 f：x->y。`
+    2. 不确切监督，即训练样本只有粗粒度的标签。例如，针对一幅图片，只拥有对整张图片的类别标注，而对于图片中的各个实体（instance）则没有标注的监督信息。该问题可以被形式化表示为：
+`学习任务为 f: X -> Y，其训练集为 D = {(X_1, y_1), …, (X_m, y_m)}，其中 X_i = {x_{I, 1}, …, x_{I, m_i}}, X_i 属于X，X_i 称为一个包，样本 x_{i, j}属于X_i（j属于{1, …, m_i}）。m_i 是 X_i 中的样本个数，y_i 属于 Y = {Y, N}。当存在 x_{i, p}是正样本时，X_i 就是一个正包，其中 p 是未知的且 p 属于 {1, …, m_i}。模型的目标就是预测未知包的标签。`
+    3. 不准确监督，即给定的标签并不总是真值。出现这种情况的原因有很多，例如：标注人员自身水平有限、标注过程粗心、标注难度较大。在标签有噪声的条件下进行学习就是一个典型的不准确学习的情况。
+```
+
+[47] TP, FP, TN, FN 的定义？准确率 (accuracy), 精准率 (precision), 召回率 (recall) 定义？PR 曲线和 ROC 曲线的坐标？如果 A 模型的 PR 曲线被 B 模型的 PR 曲线完全包住，哪个模型性能好？
+```
+1. TP, FP, TN, FN 的定义？
+    * TP：被模型预测为正类的正样本
+    * TN：被模型预测为负类的负样本
+    * FP：被模型预测为正类的负样本
+    * FN：被模型预测为负类的正样本
+2. 准确率 (accuracy), 精准率 (precision), 召回率 (recall) 定义？
+    * 准确率：模型判断正确的数据(TP+TN)占总数据的比例
+    * 召回率：针对数据集中的所有正例(TP+FN)而言,模型正确判断出的正例(TP)占数据集中所有正例的比例.FN表示被模型误认为是负例但实际是正例的数据，召回率也叫查全率。
+    * 针对模型判断出的所有正例(TP+FP)而言,其中真正例(TP)占的比例，精确率也叫查准率。
+3. PR 曲线和 ROC 曲线的坐标？如果 A 模型的 PR 曲线被 B 模型的 PR 曲线完全包住，哪个模型性能好？
+    * PR曲线：y轴为precision，x轴为recall。P-R曲线上各个取值为当前p下，样本判断结果：大于p的为正样本，反之为负样本，**P-R曲线越靠近右上角性能越好。**
+    * ROC曲线：ROC曲线中，横轴是假正例率（FPR），纵轴是真正例率（TPR）, 其中，FPR=FP/(TN+FP), TPR=TP/(TP+FN)
+
+**Q51：IOU 如何计算？**
+交并比是衡量目标检测框和真实框的重合程度，用来判断检测框是否为正样本的一个标准，并通过与阈值比较来判断检测框是正样本还是负样本。
+1. 相交的情况
+两个矩形相交情况，只要矩形框A和B点的坐标，即可求出相交区域的面积，从而求得IoU。计算思路如下：
+    * A的横坐标 等于 两个矩形框左上角横坐标较大的那个，即Ax = max(x1, a1)
+    * A的纵坐标 等于 两个矩形框左上角纵坐标较大的那个，即Ay = max(y1, b1)
+    * B的横坐标 等于 两个矩形框右下角横坐标较小的那个，即Bx = min(x2, a2)
+    * B的纵坐标 等于 两个矩形框右下角纵坐标较小的那个，即By = min(y2, b2)
+2. 不相交的情况 (直接上代码)
+
+class BBox:
+    def __init__(self,x,y,w,h):
+        self.x = x
+        self.y = y
+        self.w = w
+        self.h = h
+ 
+def iou(a,b):
+    assert isinstance(a,BBox)
+    assert isinstance(b,BBox)
+    area_a = a.w * a.h
+    area_b = b.w * b.h
+    w = min(b.x+b.w,a.x+a.w) - max(a.x,b.x)
+    h = min(b.y+b.h,a.y+a.h) - max(a.y,b.y)
+    if w <= 0 or h <= 0:
+        return 0
+    area_c = w * h
+    return area_c / (area_a + area_b - area_c)
+ 
+if __name__ == '__main__':
+    a = BBox(1,1,4,5)
+    b1 = BBox(1,1,4,5)
+    b2 = BBox(5,1,4,5)
+    b3 = BBox(3,2,3,6)
+    print("iou ",iou(a,b1))
+    print("iou ",iou(a,b2))
+    print("iou ",iou(a,b3))
+```
+
+
+[77] 什么是类激活图
+```
+* 类激活图 (Class Activation Mapping) 最初是在周博磊组发表的工作"Learning deep features for discriminative localization"中被提出的。作者发现GAP层可以仅在有图像级标注的情况下具有显著的物体定位能力。具体来说，它能够更进一步地可视化神经网络在预测某一类别时，具体关注了图像的哪些像素。
+* CAM的原理：在CNN分类网络中，输入图像经过骨干网络后会输出特征图，特征图的每个通道经过 GAP 后可以获得对应的单个激活值，所有通道的激活值就组成了一个特征向量，GAP层后面会接一个FC层，因此最后在做分类任务时就是对特征向量做加权平均，此时每一个类别 c 都对应着FC层的一组权重系数 Wc 。既然用 Wc 对特征向量做加权平均可以获得对于每个类的得分，那么用 Wc 对骨干网络输出的特征图做加权平均，就得到了所谓的激活图(Class Activation Mapping)。
+* 因此，类激活图通常被当做一种神经网络的可视化技术，它可以表征当前模型关注的图像区域或者位置，除此之外还可以用来定位图像中的物体 (如WSOL领域)。
+```
 
 
