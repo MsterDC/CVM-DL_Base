@@ -1,4 +1,4 @@
-# Reference paper/information for the corresponding issues
+# References for Corresponding Topics
 
 ### 🌻 Registration Example <br> 
 
