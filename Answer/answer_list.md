@@ -278,6 +278,20 @@ Softmax可以保证每个样本分配为每个类别的概率介于0-1之间，�
 
 ---
 
+[4]：简述 L/A/Am Softmax、GroupSoftMax 的定义及意义
+- [参考论文](yyy) | [参考论文](yyy) | [参考论文](yyy) | [参考论文](yyy) | [参考链接](http://link.zhihu.com/?target=https%3A//github.com/chengzhengxin/groupsoftmax-simpledet)
+```
+L-Softmax：Large Margin Softmax LossLarge Margin Softmax Loss，在softmax后计算交叉熵时，将向量与GT类别的权重W计算过程的夹角乘一个m系数，m大于1，这样做使得网络优化时对夹角的要求更苛刻，能够让特征与GT类别W之间的夹角更小，达到类内更紧凑，类间更疏远的效果，提高特征的准确性；
+A-Softmax类似于L-Softmax，不同之处在于对于对权值W进行了归一化，这样权值W的长度不再影响loss计算结果，更加让特征与类别之间的判定以夹角作为参考；
+AM-Softmax：是在A-Softmax基础上，对feature也进行了归一化，并且乘了一个系数s，表示归一化后的特征值不一定为1是最合适的，由于特征和权重都进行了归一化，所以会更加体现角度对loss的影响；也由于特征归一化，低质量图片的范数变大，对应的倒数变大，模型相当于对难样本采取了更多的关注，有助于特征学习的精确性；
+角度的限制也从乘法变成了减法，这样做更方便求导优化，因为不再是倍角公式；
+Group-Softmax：解决两组数据集类别冲突问题，由于是与类别有关，所以本质是如何更改one hot标签，首次提出用在检测网络中，检测网络需要标签计算loss有两个位置，RPN以及最后的分类Head；
+对于RPN部分，需要将两个数据集有交集的标签进行合并，得到一个新类别的RPN标签；
+对于Head部分，要将有交集的部分的标签，细分时都设置为1，得到一个形似one hot label的标签
+```
+
+---
+
 [2] xxx
 - [xxx](yyy) | [xxx](yyy)
 
