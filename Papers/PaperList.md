@@ -50,10 +50,10 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 5. 2017CVPR - Densely connected convolutional networks, Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q. [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
 
 [Q24] 简述 NiN 的核心思想，你知道的 1*1 卷积一般都有何作用？
-2014ICLR - Network In Network, Lin, Min and Chen, Qiang and Yan, Shuicheng. [NiN](https://arxiv.org/pdf/1312.4400.pdf)
+1. 2014ICLR - Network In Network, Lin, Min and Chen, Qiang and Yan, Shuicheng. [NiN](https://arxiv.org/pdf/1312.4400.pdf)
 
 [Q25] 简述 FCN 的核心思想
-2015CVPR - Fully Convolutional Networks for Semantic Segmentation, Jonathan Long, Evan Shelhamer, Trevor Darrell. [FCN](https://arxiv.org/pdf/1411.4038.pdf)
+1. 2015CVPR - Fully Convolutional Networks for Semantic Segmentation, Jonathan Long, Evan Shelhamer, Trevor Darrell. [FCN](https://arxiv.org/pdf/1411.4038.pdf)
 
 [Q26] 简述 Inception、Xception 及 MobileNet 的核心结构
 1. 2015CVPR - Going Deeper with Convolutions, Szegedy C, Liu W, Jia Y, et al. [Inception(v1)](https://arxiv.org/pdf/1409.4842.pdf)
@@ -64,16 +64,16 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 6. 2016CVPR Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke. [Inception-v4](https://arxiv.org/pdf/1602.07261.pdf)
 
 [Q27] 简述 EfficientNet 的核心思想
-2019ICML - Efficientnet: Rethinking model scaling for convolutional neural networks, Tan, Mingxing and Le, Quoc. [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
+1. 2019ICML - Efficientnet: Rethinking model scaling for convolutional neural networks, Tan, Mingxing and Le, Quoc. [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
 
 [Q28] 简述 UNet 的基本结构
-2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
+1. 2015MICCAI - U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas. [U-Net](https://arxiv.org/pdf/1505.04597.pdf)
 
 [Q29] 简述 FPN 的基本结构
-2017CVPR - Feature pyramid networks for object detection, Lin, Tsung-Yi and Doll{\'a}r, Piotr and Girshick, Ross and He, Kaiming and Hariharan, Bharath and Belongie, Serge. [FPN](https://arxiv.org/pdf/1612.03144.pdf)
+1. 2017CVPR - Feature pyramid networks for object detection, Lin, Tsung-Yi and Doll{\'a}r, Piotr and Girshick, Ross and He, Kaiming and Hariharan, Bharath and Belongie, Serge. [FPN](https://arxiv.org/pdf/1612.03144.pdf)
 
 [Q30] 简述 SENet 的核心结构
-2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
+1. 2018CVPR - Squeeze-and-Excitation Networks, Jie Hu, Li Shen, Gang Sun. [SENet](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf)
 
 [Q31] 什么是组卷积？简述 ResNext、ShuffleNet 基本结构
 1. 2016 - Deep Roots: Improving CNN Efficiency with Hierarchical Filter Groups, Yani Ioannou, Duncan Robertson, Roberto Cipolla, Antonio Criminisi. [Group Convolution](https://arxiv.org/pdf/1605.06489.pdf)
@@ -91,10 +91,10 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 2. 2018ECCV - CBAM: Convolutional Block Attention Module, Sanghyun Woo, Jongchan Park, Joon-Young Lee, In So Kweon. [Channel attention](https://arxiv.org/pdf/1807.06521v2.pdf)
 
 [Q34] 空洞卷积的结构以及存在的问题，什么是膨胀系数？
-2016ICLR - Multi-scale context aggregation by dilated convolutions, Yu, Fisher and Koltun, Vladlen. [Dilated Convolution](https://arxiv.org/pdf/1511.07122v2.pdf)
+1. 2016ICLR - Multi-scale context aggregation by dilated convolutions, Yu, Fisher and Koltun, Vladlen. [Dilated Convolution](https://arxiv.org/pdf/1511.07122v2.pdf)
 
 [Q35] 什么是可变形卷积，如何实现，有何作用
-2017ICCV - Deformable Convolutional Networks, Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, Yichen Wei. [DCN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)
+1. 2017ICCV - Deformable Convolutional Networks, Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, Yichen Wei. [DCN](https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)
 
 [Q36] 简述基于通道重要性评估的剪枝方法流程
 1. 2017ICCV - Learning efficient convolutional networks through network slimming, Liu Z, Li J, Shen Z, et al. [Ref-1](https://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_Learning_Efficient_Convolutional_ICCV_2017_paper.pdf)
@@ -105,10 +105,10 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 6. 2018CVPR Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks, Yang He, Guoliang Kang, Xuanyi Dong, Yanwei Fu, Yi Yang. [Ref-6](https://arxiv.org/abs/1808.06866)
 
 [Q37] 训练和测试原始 VGG19 网络时，为何要固定网络输入大小？如果使用了不同大小的输入图像，会出现什么问题？
-2015ICLR - Very deep convolutional networks for large-scale image recognition, Simonyan, Karen and Zisserman, Andrew. [VGGNet]
+1. 2015ICLR - Very deep convolutional networks for large-scale image recognition, Simonyan, Karen and Zisserman, Andrew. [VGGNet]
 
 [Q38] ResNet18 有多少卷积层？
-2016CVPR - Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+1. 2016CVPR - Deep Residual Learning for Image Recognition, Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 [Q50] RCNN、Fast-RCNN 和 Faster-RCNN 的区别与联系？YOLO 与 Faster-RCNN 的区别
 1. 2014CVPR - Rich feature hierarchies for accurate object detection and semantic segmentation, Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra. [RCNN](https://arxiv.org/pdf/1311.2524.pdf)
@@ -130,7 +130,7 @@ Overfitting, Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever
 1. 2020ECCV - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis, By Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng. (NeRF)[https://dl.acm.org/doi/pdf/10.1145/3503250]
 
 [Q62] 什么是知识蒸馏
-Distilling the Knowledge in a Neural Network, Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff [知识蒸馏](https://arxiv.org/pdf/1503.02531.pdf)
+1. Distilling the Knowledge in a Neural Network, Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff [知识蒸馏](https://arxiv.org/pdf/1503.02531.pdf)
 
 [Q71] 什么是 WGAN、CycleGAN、StyleGAN、StarGAN
 1. 2017ICML - Wasserstein generative adversarial networks, Martin Arjovsky, Soumith Chintala, Léon Bottou. [WGAN](https://arxiv.org/pdf/1701.07875.pdf)
