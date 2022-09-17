@@ -45,7 +45,8 @@ Submitting your answers here.
 2. 改进模型
    降低模型记忆训练数据的能力：lower the capacity of the model to memorize the training data.（神经网络的复杂度）
    其中又分为三种方法：
-   1)减少神经网络的hidden layers数量或者减少hidden layers的参数数量。参数数量越多，神经网络对每一个样例类别的记忆能力越强。但是过度减少参数数量又会导致underfitting问题，模型无法        学到训练数据的模式。
+   1)减少神经网络的hidden layers数量或者减少hidden layers的参数数量。参数数量越多，神经网络对每一个样例类别的记忆能力越强。但是过度减少参数数量又会导致underfitting问题，
+     模型无法学到训练数据的模式。
      Change network complexity by changing the network structure (number of weights).
    2)对模型中的wights应用正则化（L1, L2），在误差函数中添加惩罚项，较大的weights会导致更大的误差。小参数表明模型复杂性更、模型更稳定，对输入数据的统计波动不太敏感。
      较大的权重往往会导致激活层的输出变化明显，对于输入的微小变化，输出都会发生很大变化。Weight Regularization (weight decay)
