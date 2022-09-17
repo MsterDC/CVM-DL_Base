@@ -390,7 +390,7 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
 ```
 
 [75]
-！[zzj image](gan inversion methods.png)
+![zzj image](gan inversion methods.png)
 
 [79] 什么是 domain adaptation 域适应
 - [参考链接1](https://towardsdatascience.com/understanding-domain-adaptation-5baa723ac71f)
