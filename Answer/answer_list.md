@@ -36,7 +36,7 @@ Submitting your answers here.
 ```
 
 [6] 模型过拟合问题该如何解决？
-- [花书第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [Deep Learning Chapter 7](https://www.deeplearningbook.org/contents/regularization.html) | [参考链接1](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/) | [参考链接2] (https://www.v7labs.com/blog/overfitting#h4)
+- [花书第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [Deep Learning Chapter 7](https://www.deeplearningbook.org/contents/regularization.html) | [参考链接1](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/) | [参考链接2](https://www.v7labs.com/blog/overfitting#h4)
 ```
 1. 改进数据集
    获取更多的训练数据，但是实际场景中由于时间、预算或技术限制，通常难以实现；进行数据增强
