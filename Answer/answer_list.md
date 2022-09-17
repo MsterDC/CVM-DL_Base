@@ -229,7 +229,7 @@ $$
      通常设置为1
 
 ```
-标准初始化：$\begin{equation}
+标准初始化： $\begin{equation}
 \mathrm{W}_{i, j} \sim U\left(-\sqrt{\frac{6}{m+n}}, \sqrt{\frac{6}{m+n}}\right) .
 \end{equation}$
 
