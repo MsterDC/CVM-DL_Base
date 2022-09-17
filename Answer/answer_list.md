@@ -133,7 +133,7 @@ warmup是一种用于训练深度神经网络的训练技巧。训练神经网�
 warmup的两种策略：
 Constant warmup：先用一个固定的较小的学习率训练几个epochs。
 Gradual warmup：逐渐将学习率从一个小值提高到一个大值，这避免了学习率的突然增加。但是在warmup阶段，最终的学习率仍然是一个较小的值。warmup
-结束之后，进行一般情况的学习率调整（先大后小）。
+结束之后，进行一般情况的学习率调整（先大后小）。学习率策略可见 [Deep Learning Chapter 8.5 Algorithms with Adaptive Learning Rates](https://www.deeplearningbook.org/contents/optimization.html)
 ```
 
 [16] 解释 label smoothing 
@@ -199,6 +199,12 @@ $$
 ```
    当网络中的每一层的梯度累乘，随着层数的增加，梯度可能越来越到，最后导致梯度爆炸。
    梯度裁剪对于梯度设定一个范围，clip掉过大的梯度，从而防止梯度爆炸。
+```
+
+[21]
+- [花书8.4 参数初始化策略](https://exacity.github.io/deeplearningbook-chinese/Chapter8_optimization_for_training_deep_models/) | [Deep Learning Chapter 8.4](https://www.deeplearningbook.org/contents/optimization.html) | [参考链接1](https://www.deeplearning.ai/ai-notes/initialization/index.html)
+```
+
 ```
 
 [28] 简述 UNet 的基本结构
