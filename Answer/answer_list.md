@@ -389,6 +389,17 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
    泛化性：模型对于新数据做出准确预测的能力。
 ```
 
+[79] 什么是 domain adaptation 域适应
+- [参考链接1](https://towardsdatascience.com/understanding-domain-adaptation-5baa723ac71f)
+```
+域适应的目标是在源数据集上训练神经网络，并确保与源数据集显着不同的目标数据集具有良好的准确性。
+
+在许多情况下，收集数据集这项任务非常困难，因为数据集需要有足够的多样性和变化才能用来训练泛化性能好的神经网络。借助不同的计算机视觉算法，可以生成具有足够多变化的大型合成数据集。然后在合成数据集（源数据集）上训练神经网络，并在真实数据（目标数据集）上进行测试。
+
+因此，在域适应可以应用于：在有标签数据集上训练神经网络，并在另一个无标签数据集c上仍然有较好的表现。为此，分类网络从源数据集和目标数据集中提取的特征应当比较相似。因此，在训练时，强制让特征提取器提取出的源数据集特征和目标数据集特征相似。
+
+```
+
 [81] CNN 类结构与 Transformer 类结构有什么典型区别
 - [参考链接](https://blog.csdn.net/qq_39478403/article/details/121099094?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121099094-blog-118089613.pc_relevant_multi_platform_whitelistv4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-121099094-blog-118089613.pc_relevant_multi_platform_whitelistv4&utm_relevant_index=2)
 
