@@ -234,10 +234,9 @@ $$
 \end{equation}$
 
 Xavier初始化:$\begin{equation}
-\begin{aligned}
-W^{[l]} & \sim \mathcal{N}\left(\mu=0, \sigma^2=\frac{1}{n^{[l-1]}}\right) \\
-b^{[l]} &=0
-\end{aligned}
+W^{[l]} \sim \mathcal{N}\left(\mu=0, \sigma^2=\frac{1}{n !^{[l-1]}}\right)
+\end{equation}$ $\begin{equation}
+b^{[l]}=0
 \end{equation}$
 
 [28] 简述 UNet 的基本结构
