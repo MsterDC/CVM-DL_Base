@@ -35,6 +35,9 @@ Submitting your answers here.
    center loss为每一个样本学习一个特征中心，使得每个类别的特征尽可能聚集，产生更加具有判别性的特征。
 ```
 
+[6] 模型过拟合问题该如何解决？
+- [花书第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [Deep Learning Chapter 7](https://www.deeplearningbook.org/contents/regularization.html)
+
 [11] 梯度下降方法找到的一定是目标函数下降最快的方向么？如何理解 GD 与 SGD、minibatchSGD 算法的差异?
 ```
 1. 梯度下降方法找到的一定是目标函数下降最快的方向么？
