@@ -32,3 +32,10 @@ Q5：什么是 WGAN、CycleGAN、StyleGAN、StarGAN
    - WGAN论文没看太懂，原理有点没看懂。
    
 ```
+
+```
+Q82：什么是 SOTA、vanilla、oracle、benchmark、head、neck、bottleneck、backbone、 embedding、logits、pretext/downstream task
+
+   - oracle不知道什么意思。
+   
+```
