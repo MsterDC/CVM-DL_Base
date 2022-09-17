@@ -229,7 +229,15 @@ $$
      通常设置为1
 
 ```
-$k$
+标准初始化：$\begin{equation}
+\mathrm{W}_{i, j} \sim U\left(-\sqrt{\frac{6}{m+n}}, \sqrt{\frac{6}{m+n}}\right) .
+\end{equation}$
+Xavier 初始化:$\begin{equation}
+\begin{aligned}
+W^{[l]} & \sim \mathcal{N}\left(\mu=0, \sigma^2=\frac{1}{n^{[l-1]}}\right) \\
+b^{[l]} &=0
+\end{aligned}
+\end{equation}$
 
 [28] 简述 UNet 的基本结构
 ```
