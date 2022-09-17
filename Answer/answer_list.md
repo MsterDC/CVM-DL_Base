@@ -232,7 +232,8 @@ $$
 标准初始化：$\begin{equation}
 \mathrm{W}_{i, j} \sim U\left(-\sqrt{\frac{6}{m+n}}, \sqrt{\frac{6}{m+n}}\right) .
 \end{equation}$
-Xavier 初始化:$\begin{equation}
+
+Xavier初始化:$\begin{equation}
 \begin{aligned}
 W^{[l]} & \sim \mathcal{N}\left(\mu=0, \sigma^2=\frac{1}{n^{[l-1]}}\right) \\
 b^{[l]} &=0
