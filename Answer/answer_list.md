@@ -205,6 +205,11 @@ $$
 [21]
 - [花书8.4 参数初始化策略](https://exacity.github.io/deeplearningbook-chinese/Chapter8_optimization_for_training_deep_models/) | [Deep Learning Chapter 8.4](https://www.deeplearningbook.org/contents/optimization.html) | [参考链接1](https://www.deeplearning.ai/ai-notes/initialization/index.html)
 ```
+1. 模型参数初始化对训练结果是否有影响？
+   在深度学习问题中，训练算法通常是迭代的，因此需要指定一些开始迭代的初始点。初始点能够决定算法是否收敛。当学习算法收敛时，初始点可以决定学习算法的收敛速度，以及需要多大的代价收敛到      点。此外，不同初始点的泛化性差异也很大。
+
+   模型参数初始化过小时：梯度消失
+   模型参数初始化过大时：梯度爆炸
 
 ```
 
