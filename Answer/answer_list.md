@@ -36,7 +36,30 @@ Submitting your answers here.
 ```
 
 [6] 模型过拟合问题该如何解决？
-- [花书第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [Deep Learning Chapter 7](https://www.deeplearningbook.org/contents/regularization.html)
+- [花书第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [Deep Learning Chapter 7](https://www.deeplearningbook.org/contents/regularization.html) | [参考链接1](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/) | [参考链接2] (https://www.v7labs.com/blog/overfitting#h4)
+```
+1. 改进数据集
+   获取更多的训练数据，但是实际场景中由于时间、预算或技术限制，通常难以实现；进行数据增强
+
+
+2. 改进模型
+   降低模型记忆训练数据的能力：lower the capacity of the model to memorize the training data.（神经网络的复杂度）
+   其中又分为三种方法：
+   1)	减少神经网络的hidden layers数量或者减少hidden layers的参数数量。参数数量越多，神经网络对每一个样例类别的记忆能力越强。但是过度减少参数数量又会导致underfitting问题，模型无法       学到训练数据的模式。
+      Change network complexity by changing the network structure (number of weights).
+   2)	对模型中的wights应用正则化（L1, L2），在误差函数中添加惩罚项，较大的weights会导致更大的误差。小参数表明模型复杂性更、模型更稳定，对输入数据的统计波动不太敏感。
+      较大的权重往往会导致激活层的输出变化明显，对于输入的微小变化，输出都会发生很大变化。Weight Regularization (weight decay)
+      Change network complexity by changing the network parameters (values of weights).
+   3)	其他方法
+      由于（权重）正则化方法广泛应用于解决过拟合问题，以至于很多解决模型泛化误差的方法也被称为正则化方法：
+      Dropout
+      Early stopping
+      Noise: 在输入、输出数据中添加噪声。
+      Weight Constraint: 将权重的大小限制在固定的范围内。
+      集成方法：例如bagging, boosting
+      Feature selection：删除冗余的特征。
+      Activity Regularization
+```
 
 [11] 梯度下降方法找到的一定是目标函数下降最快的方向么？如何理解 GD 与 SGD、minibatchSGD 算法的差异?
 ```
