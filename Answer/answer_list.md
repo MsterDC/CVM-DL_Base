@@ -389,7 +389,8 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
    泛化性：模型对于新数据做出准确预测的能力。
 ```
 
-[75]
+[75] 什么是 GAN 反演，有几种方法
+- [参考论文 2021CVPR](https://arxiv.org/pdf/2101.05278.pdf)
 <img src="gan inversion methods.png" title = "GAN反演方法">
 
 [79] 什么是 domain adaptation 域适应
