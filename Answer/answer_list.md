@@ -394,11 +394,13 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
 <img src="gan inversion methods.png" title = "GAN反演方法">
 
 1. 基于优化的方法(Optimization-based)
-   将一个隐空间向量$\text{z}$通过生成器$G$生成一张重建图像，生成器$$G$$以一张真实图像为目标(target image)对自身参数$$\theta$$进行基于梯度下降的优化，如(b)所示
+   将一个隐空间向量$z$通过生成器$G$生成一张重建图像，生成器$G$以一张真实图像为目标(target image)对自身参数$\theta$进行基于梯度下降的优化，如(b)所示
 
-   $\begin{equation}
-\mathbf{z}^*=\underset{\mathbf{z}}{\arg \min } \ell(x, G(\mathbf{z} ; \theta))
-\end{equation}$
+   $$
+   \begin{equation}
+   \mathbf{z}^*=\underset{\mathbf{z}}{\arg \min } \ell(x, G(\mathbf{z} ; \theta))
+   \end{equation}
+   $$
 
 
 2. 基于模型学习的方法(Learning-based)
