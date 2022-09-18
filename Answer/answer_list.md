@@ -202,7 +202,7 @@ $$
    梯度裁剪对于梯度设定一个范围，clip掉过大的梯度，从而防止梯度爆炸。
 ```
 
-[21]
+[21] 模型参数初始化对训练结果是否有影响？常用的初始化策略是什么？
 - [花书8.4 参数初始化策略](https://exacity.github.io/deeplearningbook-chinese/Chapter8_optimization_for_training_deep_models/) | [Deep Learning Chapter 8.4](https://www.deeplearningbook.org/contents/optimization.html) | [参考链接1](https://www.deeplearning.ai/ai-notes/initialization/index.html)
 ```
 1. 模型参数初始化对训练结果是否有影响？
