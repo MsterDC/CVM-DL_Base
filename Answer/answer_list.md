@@ -394,7 +394,7 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
 <img src="gan inversion methods.png" title = "GAN反演方法">
 
 1. 基于优化的方法(Optimization-based):
-   将一个隐空间向量$z$通过生成器$G$生成一张重建图像，生成器$G$以一张真实图像为目标(target image)对自身参数$\theta$进行基于梯度下降的优化，
+   将一个隐空间向量 $z$ 通过生成器 $G$ 生成一张重建图像，生成器 $G$ 以一张真实图像为目标(target image)对自身参数 $\theta$ 进行基于梯度下降的优化，
    如(b)所示
    $$
    \begin{equation}
@@ -404,11 +404,13 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
 
 
 2. 基于模型学习的方法(Learning-based)
-   Learning-based的方法训练一个编码神经网络$E\left(x ; \theta_E\right)$，将一张真实图像$x$映射到隐空间的一个向量$z$:
+   Learning-based的方法训练一个编码神经网络 $E\left(x ; \theta_E\right)$ ，将一张真实图像 $x$ 映射到隐空间的一个向量 $z$ :
    $$
    \theta_E^*=\underset{\theta_E}{\arg \min } \sum_n \mathcal{L}\left(G\left(E\left(x_n ; \theta_E\right)\right), x_n\right)
    $$
-   其中$x_n$表示数据集中的第$n$张图像，公式$(2)$中的
+   其中 $x_n$ 表示数据集中的第 $n$ 张图像，公式$(2)$让人联想到自编码器(autoencoder)的结构，具有一个编码器 $E$ 和一个解码器 $G$ ，
+   在训练过程中解码器 $G$ 是固定的。我们想训练一个编码器 $E$ ：将真实图像 $x_n$ 映射为隐向量 $z_n$，使得$z_n$通过解码器 $G$还原为
+   一张重建图像 $x_reconstruct$ 时与 $x_n$ 非常接近。
 
 3. 混合型方法(Hybird)
 ```
