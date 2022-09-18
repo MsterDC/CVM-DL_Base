@@ -392,6 +392,19 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
 [75] 什么是 GAN 反演，有几种方法
 - [参考论文 2021CVPR](https://arxiv.org/pdf/2101.05278.pdf)
 <img src="gan inversion methods.png" title = "GAN反演方法">
+```
+1. 基于优化的方法(Optimization-based)
+   将隐空间向量z以一张真实图像为目标(target image)进行优化，如图(b)所示
+```
+   $\begin{equation}
+\mathbf{z}^*=\underset{\mathbf{z}}{\arg \min } \ell(x, G(\mathbf{z} ; \theta))
+\end{equation}$
+```
+2. 基于模型学习的方法(Learning-based)
+```
+
+3. 混合型方法(Hybird)
+```
 
 [79] 什么是 domain adaptation 域适应
 - [参考链接1](https://towardsdatascience.com/understanding-domain-adaptation-5baa723ac71f)
