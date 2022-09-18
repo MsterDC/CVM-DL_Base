@@ -393,7 +393,7 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
 - [参考论文 2021CVPR](https://arxiv.org/pdf/2101.05278.pdf)
 <img src="gan inversion methods.png" title = "GAN反演方法">
 
-1. 基于优化的方法(optimization-based):  
+1. 基于优化的方法(Optimization-based):  
    将一个隐空间向量 $z$ 通过生成器 $G$ 生成一张重建图像，生成器 $G$ 以一张真实图像为目标(target image)对自身参数 $\theta$ 进行基于梯度下降的优化，
    如 (b) 所示：
    $$
@@ -403,7 +403,7 @@ Ps：在“预训练”阶段，也可以sample出1个batch的几个任务，那
    $$
    其中 $x$ 是目标图像，$G$ 是 GAN 中的生成器，$\theta$是生成器 $G$ 的参数。
 
-2. 基于模型学习的方法(learning-based):  
+2. 基于模型学习的方法(Learning-based):  
    Learning-based的方法训练一个编码神经网络 $E\left(x ; \theta_E\right)$ ，将一张真实图像 $x$ 映射到隐空间的一个向量 $z$ ，如 (c) 所示:
    $$
    \theta_E^*=\underset{\theta_E}{\arg \min } \sum_n \mathcal{L}\left(G\left(E\left(x_n ; \theta_E\right)\right), x_n\right)
