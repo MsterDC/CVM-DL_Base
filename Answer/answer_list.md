@@ -809,3 +809,5 @@ Channel attention：
 SENet：首先将spatial维度进行AdaptiveAvgPool（比如7 x 7 -->1 x 1，这一步称为Squeeze），然后通过两个FC学习到通道注意力（再用Sigmoid归一化，这一步称为Excitation），然后就这个学习到的矩阵与原来的矩阵相乘（e.g. 每个7x7的特征，乘上1x1的权重），就得到了在空间维度加权之后的特征。
 
 ```
+
+
